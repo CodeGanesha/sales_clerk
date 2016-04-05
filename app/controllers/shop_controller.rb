@@ -26,17 +26,18 @@ class ShopController < ApplicationController
   # the checkout page creates an order upon completion. So before a checkout the basket is attached to the session
   # and by filling out all data an order is created with the basket and the session zeroed
   def checkout
-    @order = Order.new :ordered_on => Date.today
-    @order.basket = current_basket
+    basket = current_basket
+    if(basket.kori )
+      @order = basket.kori
+    else
+      @order = Order.new :ordered_on => Date.today
+      @order.basket = basket
+    end
     if(request.get?)
       @order.email = current_clerk.email if current_clerk
       @order.shipment_type = "pickup" # price is 0 automatically
     else
-      begin
-        order_ps = params.require(:order).permit( :email,:name , :street , :city , :phone , :shipment_type )
-      rescue
-        return redirect_to shop_checkout_path
-      end
+      order_ps = params.require(:order).permit( :email,:name , :street , :city , :phone , :shipment_type )
       @order.assign_attributes(order_ps)
       if (!params[:validation].blank?) and @order.save
         return process_order #always redirects
