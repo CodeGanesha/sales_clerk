@@ -40,7 +40,6 @@ group  :production do
   gem "therubyracer"
   gem "libv8"
   gem 'uglifier'
-  gem "lograge"
   gem "newrelic_rpm"
   gem "mysql2" , "~> 0.3.13"
 end
