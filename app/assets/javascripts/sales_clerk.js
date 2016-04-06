@@ -1,6 +1,7 @@
 //= require jquery.min
 //= require jquery-ui/datepicker
 //= require jquery-ui/datepicker-fi
+//= require bootstrap
 //= require_self
 //= require stripe_clerk/charges
 

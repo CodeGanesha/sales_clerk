@@ -17,6 +17,7 @@ $table-bg-accent: #E2EEF1;
 $breadcrumb-bg: rgba(213,223,255,0.3);
 
 
+
 ul.subcat {
 	font-size: .9em;
 	padding-left: 10px;
@@ -32,6 +33,11 @@ ul.cat {
   color: #ffffff !important;
   text-shadow: black 1px 1px 03px;
 	}
+
+.navbar-inverse  {
+  border: 0px !important;
+  background-color: none !important;
+}
 
 .main {
   max-width: 96%;
@@ -186,9 +192,9 @@ text-shadow: rgb(255, 255, 255) 0px 0px 10px;
 	margin-bottom: 12px;
 }
 
-.product-listing {
+/* .product-listing {
   width: 870px;
-  }
+  }  */
 
 .product-container {
   margin-bottom: 31px;
@@ -332,11 +338,6 @@ h1.product-title {
     {
         display: none !important;
     }
-}
-
-.navbar-inverse .navbar-inner {
-  border: 0px;
-  background-color: $highlight;
 }
 
 

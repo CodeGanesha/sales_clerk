@@ -35,42 +35,50 @@
                     =image_tag "sales_clerk/spacer.gif", :height => "80", :width => "650"
 
                 .col-md-6
-                  %ul.nav.navbar-nav.navbar-right.hidden-print
-                    %li.dropdown
-                      %a.dropdown-toggle{"data-toggle" => "dropdown", href: "#"}
-                        Auringosta Itään, Kuusta Länteen
-                        %b.caret
-                      %ul.dropdown-menu
-                        %li{:role => "presentation"}
-                          %a{:href => "/page/liikkeemme", :role => "menuitem", :tabindex => "-1"}
-                            = t(:our_shop)
-
-                        %li{:role => "presentation"}
-                          %a{:href => "/page/toimitusehdot", :role => "menuitem", :tabindex => "-1"}
-                            = t(:terms)
-
-                    %li#link-to-cart
-                      %a{href: main_app.shop_checkout_path}
-                        = t(:basket)
-                        - if current_basket_or_nil.nil? or current_basket.items.count == 0
-                          = t(:empty)
-                        -else
-                          = current_basket.items.count
-                          = t(:items)
-                    %li.dropdown
-                      %a.dropdown-toggle{"data-toggle" => "dropdown", href: "#"}
-                        = current_clerk ? current_clerk.email : t(:sign_in)
-                        %b.caret
-                      %ul.dropdown-menu
-                        - if current_clerk
-                          %li= link_to t(:sign_out), office.sign_out_path
+                  .navbar-header
+                    %button.navbar-toggle.collapsed{"aria-expanded" => "false", "data-target" => "#bs-example-navbar-collapse-1", "data-toggle" => "collapse", :type => "button"}
+                      %span.sr-only Toggle navigation
+                      %span.icon-bar
+                      %span.icon-bar
+                      %span.icon-bar
+                  #bs-example-navbar-collapse-1.collapse.navbar-collapse
+                    %ul.nav.navbar-nav.navbar-right.hidden-print
+                      %li.dropdown
+                        %a.dropdown-toggle{"aria-expanded" => "false", "aria-haspopup" => "true", "data-toggle" => "dropdown", :href => "#", :role => "button"}
+                          Auringosta Itään, Kuusta Länteen
+                          %b.caret
+                        %ul.dropdown-menu
                           %li{:role => "presentation"}
-                            %a{:href => "/history", :role => "menuitem", :tabindex => "-1"}
-                              = t(:order_history)
-                        - else
-                          %li= link_to t(:sign_up), office.sign_up_path
-                          %li= link_to t(:sign_in), office.sign_in_path
-                  = yield :extra_pic
+                            %a{:href => "/page/liikkeemme", :role => "menuitem", :tabindex => "-1"}
+                              = t(:our_shop)
+
+                          %li{:role => "presentation"}
+                            %a{:href => "/page/toimitusehdot", :role => "menuitem", :tabindex => "-1"}
+                              = t(:terms)
+
+                      %li#link-to-cart
+                        %a{href: main_app.shop_checkout_path}
+                          = t(:basket)
+                          - if current_basket_or_nil.nil? or current_basket.items.count == 0
+                            = t(:empty)
+                          -else
+                            = current_basket.items.count
+                            = t(:items)
+                      %li.dropdown
+                        %a.dropdown-toggle{"data-toggle" => "dropdown", href: "#"}
+                          = current_clerk ? current_clerk.email : t(:sign_in)
+                          %b.caret
+                        %ul.dropdown-menu
+                          - if current_clerk
+                            %li= link_to t(:sign_out), office.sign_out_path
+                            %li{:role => "presentation"}
+                              %a{:href => "/history", :role => "menuitem", :tabindex => "-1"}
+                                = t(:order_history)
+                          - else
+                            %li= link_to t(:sign_up), office.sign_up_path
+                            %li= link_to t(:sign_in), office.sign_in_path
+                  .visible-md-block.visible-lg-block
+                    = yield :extra_pic
 
       .main
         - message = flash[:notice].blank? ? flash[:error] : flash[:notice]

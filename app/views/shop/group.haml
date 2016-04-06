@@ -1,35 +1,34 @@
 -cache(@group) do
   .row
     =render "parents" , :group => @group
-    .col-md-9
+    .col-md-9.col-sm-9
       .row
         - categories_for(@group).in_groups_of(3).each do |array|
-          .row
-            -array.each do |group|
-              .col-lg-4
-                -next unless group
-                .group-wrapper.sub
-                  =link_to shop_group_path(:link => group.link) do
-                    = image_tag group.main_picture.url(:product)
-                    %h3= group.name
-    .row.list
-      -products_for(@group).in_groups_of(3).each do |three|
-        .row.product-listing
-          -three.each do |product|
-            .col-md-4
-              -next unless product
-              .product-container
-                =link_to shop_product_path(:link => product.link ) do
-                  %h4.product-name
-                    = product.name
-                  .row
-                    .col-md-4
+          -array.each do |group|
+            .col-lg-4.col-md-6.col-xs-12
+              -next unless group
+              .group-wrapper.sub
+                =link_to shop_group_path(:link => group.link) do
+                  = image_tag group.main_picture.url(:product)
+                  %h3= group.name
+    .col-md-9.col-sm-9
+      .list
+        -products_for(@group).in_groups_of(3).each do |three|
+          .product-listing
+            -three.each do |product|
+              .col-lg-4.col-md-6.col-sm-6.col-xs-12
+                -next unless product
+                .product-container
+                  =link_to shop_product_path(:link => product.link ) do
+                    %h4.product-name
+                      = product.name
+                    .col-md-4.col-sm-4.col-xs-4
                       .square-image
                         =image_tag product.main_picture.url
-                    .col-md-8
+                    .col-md-8.col-sm-8.col-xs-8
                       .product-fact
                         =link_to shop_product_path( :link => product.link ) , :class => :info do
                           %p= markdown product.summary
-                  .row
-                    .product-list-price
-                      = euros product.price
+                    .row
+                      .product-list-price
+                        = euros product.price
