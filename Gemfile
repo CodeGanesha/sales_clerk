@@ -8,6 +8,7 @@ gem 'print_clerk' , github: "rubyclerks/print_clerk"
 #gem 'print_clerk' , path: "../print_clerk"
 
 gem "stripe_clerk", github: "rubyclerks/stripe_clerk"
+#gem 'stripe_clerk' , path: "../stripe_clerk"
 
 gem 'post_clerk' ,  github: "rubyclerks/post_clerk"
 
@@ -39,7 +40,6 @@ group  :production do
   gem "therubyracer"
   gem "libv8"
   gem 'uglifier'
-  gem "lograge"
   gem "newrelic_rpm"
   gem "mysql2" , "~> 0.3.13"
 end

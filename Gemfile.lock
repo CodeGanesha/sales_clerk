@@ -55,7 +55,7 @@ GIT
 
 GIT
   remote: git://github.com/rubyclerks/stripe_clerk.git
-  revision: 368405675b24207f052b0f28372222f2b3d66a31
+  revision: 7fa97c35d71471955a7c31a5ceda99cda0136879
   specs:
     stripe_clerk (0.2)
       office_clerk (~> 1.0.0)
@@ -230,10 +230,6 @@ GEM
     listen (3.0.6)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9.7)
-    lograge (0.3.6)
-      actionpack (>= 3)
-      activesupport (>= 3)
-      railties (>= 3)
     loofah (2.0.3)
       nokogiri (>= 1.5.9)
     lumberjack (1.0.10)
@@ -369,7 +365,7 @@ GEM
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
     sqlite3 (1.3.11)
-    stripe (1.38.0)
+    stripe (1.39.0)
       rest-client (~> 1.4)
     term-ansicolor (1.3.2)
       tins (~> 1.0)
@@ -423,7 +419,6 @@ DEPENDENCIES
   i18n-spec
   i18n-tasks
   libv8
-  lograge
   mysql2 (~> 0.3.13)
   newrelic_rpm
   office_clerk!
