@@ -37,15 +37,15 @@ ul.cat {
   background-color: transparent !important;
 }
 
-.main {
-  max-width: 96%;
-  margin: 70px auto 0; }
-
 @import "bootstrap";
 
 body{
-	margin-top: 100px;
+	margin-top: 107px;
+	.container-fluid {
+	  max-width: 95%;
+	}
 }
+
 .top-bar-section ul {
     background: #ffffff;
     }

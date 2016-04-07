@@ -14,7 +14,7 @@ GIT
 
 GIT
   remote: git://github.com/rubyclerks/office_clerk.git
-  revision: 33677c065e5888fbebf5f328312660cbae6bb4c4
+  revision: f4c3d9102acf88fb7fa3ef68408ca3adf078e822
   specs:
     office_clerk (1.0.0)
       bcrypt-ruby (~> 3.1)
@@ -102,7 +102,7 @@ GEM
     addressable (2.4.0)
     arel (6.0.3)
     ast (2.2.0)
-    autoprefixer-rails (6.3.4)
+    autoprefixer-rails (6.3.6)
       execjs
     barby (0.6.2)
     bcrypt (3.1.11)
@@ -302,7 +302,7 @@ GEM
       activesupport (= 4.2.6)
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
-    rake (11.1.1)
+    rake (11.1.2)
     ransack (1.7.0)
       actionpack (>= 3.0)
       activerecord (>= 3.0)
@@ -315,7 +315,7 @@ GEM
     rb-readline (0.5.3)
     ref (2.0.0)
     reference_number (0.0.1)
-    request_store (1.3.0)
+    request_store (1.3.1)
     rest-client (1.8.0)
       http-cookie (>= 1.0.2, < 2.0)
       mime-types (>= 1.16, < 3.0)
@@ -343,7 +343,7 @@ GEM
       rspec-mocks (~> 3.4.0)
       rspec-support (~> 3.4.0)
     rspec-support (3.4.1)
-    sass (3.4.21)
+    sass (3.4.22)
     sass-rails (5.0.4)
       railties (>= 4.0.0, < 5.0)
       sass (~> 3.1)
@@ -357,7 +357,7 @@ GEM
       simplecov-html (~> 0.10.0)
     simplecov-html (0.10.0)
     slop (3.6.0)
-    sprockets (3.5.2)
+    sprockets (3.6.0)
       concurrent-ruby (~> 1.0)
       rack (> 1, < 3)
     sprockets-rails (3.0.4)
