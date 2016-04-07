@@ -16,8 +16,6 @@ $secondary-color: #c7e1df;
 $table-bg-accent: #E2EEF1;
 $breadcrumb-bg: rgba(213,223,255,0.3);
 
-
-
 ul.subcat {
 	font-size: .9em;
 	padding-left: 10px;
@@ -45,6 +43,9 @@ ul.cat {
 
 @import "bootstrap";
 
+body{
+	margin-top: 100px;
+}
 .top-bar-section ul {
     background: #ffffff;
     }
@@ -60,9 +61,6 @@ ul.cat {
     padding-right: 5px;
 }
 
-.right {
-  text-align: right;
-}
 
 .footer {
   padding-top: 30px;
@@ -71,17 +69,30 @@ ul.cat {
   line-height: 120%;
 	font-size: 1.2em;
 	strong, b {
-  color: $highlight;
+  	color: $highlight;
   }
+	.footer_left {
+		text-align: left;
+	}
+	.footer_center {
+		text-align: left;
+		@media(min-width: 768px) {
+			text-align: center;
+		}
+	}
+	.footer_right {
+		font-size: .9em;
+		text-align: left;
+		@media (min-width: 768px) {
+			text-align: right;
+		}
+	}
+
+	h4{
+		font-weight: 500;
+	}
 }
 
-.footer2 {
-font-size: .9em;
-}
-
-.footer h4{
-font-weight: 500;
-}
 
 
 .menus {
@@ -312,8 +323,8 @@ h1.product-title {
     font-weight: 900;
     padding: 0px;
     }
-    
-  
+
+
 .frame {
   margin-right: 0;
   margin-left: 0;
@@ -329,7 +340,7 @@ h1.product-title {
 .frame#previous_address {
   margin-top: 6px;
   font-size: .85em;
-  
+
 }
 
 @media screen
@@ -338,12 +349,6 @@ h1.product-title {
     {
         display: none !important;
     }
-}
-
-
-body {
-    margin-top: 50px;
-    /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
 .banner {
@@ -355,6 +360,7 @@ body {
 }
 
 .taustalogo {
+	background-color: #1CA7FF;
   background: image-url("kauppa/kansi.jpg") no-repeat scroll;
   height: 107px;
 }

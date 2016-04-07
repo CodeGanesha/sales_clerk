@@ -1,30 +1,31 @@
 .row.footer
 
   %hr
-  .col-md-4
-    %h4= t(:designed_by) 
+  .col-sm-4.footer_left
+    .highlight=link_to t(:our_shop) , "/page/liikkeemme"
+    %br
+    .highlight=link_to t(:terms).capitalize , "/page/toimitusehdot"
+
+    %a{href: "https://www.facebook.com/Auringosta.Itaan.Kuusta.Lanteen", :target => "blank"}
+      %h4.highlight Like us on Facebook!
+
+      =image_tag "kauppa/facebook.gif"
+  .col-sm-4.footer_center
+    %h4= t(:designed_by)
     %b Ruby Design  
       
     .footer2
       =t(:powered_by) # please leave some kind of link
       %a{href: "http://rubyclerks.com/", :target => "blank"} RubyClerks
-  .col-md-4
-    .text-center
-      %a{href: "https://www.facebook.com/Auringosta.Itaan.Kuusta.Lanteen", :target => "blank"}
-        %h4.highlight Like us on Facebook!
-      
-        =image_tag "kauppa/facebook.gif"
-    
-      
-  .col-md-4
-    .right
-      %h4.highlight  AURINGOSTA ITÄÄN, KUUSTA LÄNTEEN
-      .footer2
-        Fredrikinkatu 19 (Viiskulma), Helsinki
-        %br/
-        sähköposti 
-        %a{href: "mailto: info@auringostaitaan.fi"} info@auringostaitaan.fi
-        %br/
-        puh 09- 621 7001 | Y-tunnus 2380478-1
-        %br/
-        %br/
+
+
+  .col-sm-4.footer_right
+    %h4.highlight  AURINGOSTA ITÄÄN, KUUSTA LÄNTEEN
+    Fredrikinkatu 19 (Viiskulma), Helsinki
+    %br/
+    sähköposti
+    %a{href: "mailto: info@auringostaitaan.fi"} info@auringostaitaan.fi
+    %br/
+    puh 09- 621 7001 | Y-tunnus 2380478-1
+    %br/
+    %br/
