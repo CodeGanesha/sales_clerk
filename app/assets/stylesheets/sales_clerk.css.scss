@@ -30,7 +30,8 @@ ul.cat {
   font-size: 14px;
   color: #ffffff !important;
   text-shadow: black 1px 1px 03px;
-	}
+	text-align: right;
+}
 
 .navbar-inverse  {
   border: 0px !important;
@@ -45,7 +46,9 @@ body{
 	  max-width: 95%;
 	}
 }
-
+.navbar-header .navbar-toggle {
+	background: #1BA7FF;
+}
 .top-bar-section ul {
     background: #ffffff;
     }
@@ -92,8 +95,6 @@ body{
 		font-weight: 500;
 	}
 }
-
-
 
 .menus {
   padding: 8px;
@@ -379,7 +380,6 @@ color: #E2E7F6; }
 
 .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
 background-color: #0A6779; }
-
 
 .alert {
   font-weight: 500;
