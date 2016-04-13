@@ -13,12 +13,6 @@ GIT
       office_clerk (~> 1.0.0)
 
 GIT
-  remote: git://github.com/rubyclerks/barby.git
-  revision: 89147a9b822b3fb275c586ffc4e784de1af7d4a3
-  specs:
-    barby (0.6.2)
-
-GIT
   remote: git://github.com/rubyclerks/office_clerk.git
   revision: f4c3d9102acf88fb7fa3ef68408ca3adf078e822
   specs:
@@ -50,7 +44,7 @@ GIT
 
 GIT
   remote: git://github.com/rubyclerks/print_clerk.git
-  revision: 8e71f7b4d45781fbf399e42c7094f5d3ecce1da9
+  revision: 229ff304ad9e99bdf40b584b312efc35484edb23
   specs:
     print_clerk (0.6)
       barby (~> 0.6)
@@ -110,6 +104,7 @@ GEM
     ast (2.2.0)
     autoprefixer-rails (6.3.6)
       execjs
+    barby (0.6.2)
     bcrypt (3.1.11)
     bcrypt-ruby (3.1.5)
       bcrypt (>= 3.1.3)
@@ -410,7 +405,6 @@ PLATFORMS
 
 DEPENDENCIES
   accountant_clerk!
-  barby!
   better_errors
   binding_of_caller
   capybara
