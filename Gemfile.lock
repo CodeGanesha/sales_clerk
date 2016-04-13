@@ -49,15 +49,8 @@ GIT
       office_clerk (~> 1.0.0)
 
 GIT
-  remote: git://github.com/rubyclerks/stripe_clerk.git
-  revision: 7fa97c35d71471955a7c31a5ceda99cda0136879
-  specs:
-    stripe_clerk (0.2)
-      office_clerk (~> 1.0.0)
-      stripe
-
-PATH
-  remote: ../print_clerk
+  remote: git://github.com/rubyclerks/print_clerk.git
+  revision: 8e71f7b4d45781fbf399e42c7094f5d3ecce1da9
   specs:
     print_clerk (0.6)
       barby (~> 0.6)
@@ -65,6 +58,14 @@ PATH
       office_clerk (~> 1.0.0)
       prawn (~> 2.0)
       reference_number
+
+GIT
+  remote: git://github.com/rubyclerks/stripe_clerk.git
+  revision: 7fa97c35d71471955a7c31a5ceda99cda0136879
+  specs:
+    stripe_clerk (0.2)
+      office_clerk (~> 1.0.0)
+      stripe
 
 GEM
   remote: https://rubygems.org/
