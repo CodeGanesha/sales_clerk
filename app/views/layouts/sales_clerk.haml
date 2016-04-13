@@ -27,10 +27,13 @@
     %nav.navbar.navbar-inverse.navbar-fixed-top.taustalogo{:role => "navigation"}
       .container-fluid
         .row
-          .col-lg-6.col-md-5.col-sm-4.col-xs-3
+          .col-xs-6.visible-lg
             =link_to "/" do
-              = image_tag "sales_clerk/spacer.gif" , :width => "100%" , :height => "100"
-          .col-lg-6.col-md-7.col-sm-8.col-xs-9
+              = image_tag "kauppa/kansilogo-md.png"
+          .col-xs-6.visible-xs.visible-sm.visible-md
+            =link_to "/" do
+              = image_tag "kauppa/kansilogo-xs.png"
+          .col-xs-6
             .navbar-inner
               .navbar-header
                 %button.navbar-toggle.navbar-right.collapsed{"aria-expanded" => "false", "data-target" => "#auringosta-collapse-1", "data-toggle" => "collapse", :type => "button"}
@@ -54,7 +57,7 @@
                   - else
                     %li= link_to t(:sign_up), office.sign_up_path
                     %li= link_to t(:sign_in), office.sign_in_path
-              .visible-md-block.visible-lg-block
+              .visible-sm.visible-md.visible-lg
                 = yield :extra_pic
     .container-fluid
       .row
