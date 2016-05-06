@@ -14,7 +14,7 @@ GIT
 
 GIT
   remote: git://github.com/rubyclerks/office_clerk.git
-  revision: f4c3d9102acf88fb7fa3ef68408ca3adf078e822
+  revision: a6b0427d16482b033c96567fceed9eecaeff3609
   specs:
     office_clerk (1.0.0)
       bcrypt-ruby (~> 3.1)
@@ -104,7 +104,7 @@ GEM
     ast (2.2.0)
     autoprefixer-rails (6.3.6)
       execjs
-    barby (0.6.2)
+    barby (0.6.3)
     bcrypt (3.1.11)
     bcrypt-ruby (3.1.5)
       bcrypt (>= 3.1.3)
@@ -122,14 +122,14 @@ GEM
       sass (>= 3.3.4)
     bootstrap_form (2.3.0)
     builder (3.2.2)
-    capybara (2.6.2)
+    capybara (2.7.1)
       addressable
       mime-types (>= 1.16)
       nokogiri (>= 1.3.3)
       rack (>= 1.0.0)
       rack-test (>= 0.5.4)
       xpath (~> 2.0)
-    capybara-screenshot (1.0.11)
+    capybara-screenshot (1.0.12)
       capybara (>= 1.0, < 3)
       launchy
     chunky_png (1.3.5)
@@ -147,9 +147,9 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.10.0)
-    concurrent-ruby (1.0.1)
+    concurrent-ruby (1.0.2)
     daemons (1.2.3)
-    database_cleaner (1.5.1)
+    database_cleaner (1.5.3)
     debug_inspector (0.0.2)
     diff-lcs (1.2.5)
     docile (1.1.5)
@@ -159,17 +159,17 @@ GEM
       json
       thread
       thread_safe
-    email_spec (2.0.0)
+    email_spec (2.1.0)
       htmlentities (~> 4.3.3)
       launchy (~> 2.1)
       mail (~> 2.6.3)
     erubis (2.7.0)
-    eventmachine (1.0.9.1)
+    eventmachine (1.2.0.1)
     execjs (2.6.0)
-    factory_girl (4.5.0)
+    factory_girl (4.7.0)
       activesupport (>= 3.0.0)
-    factory_girl_rails (4.6.0)
-      factory_girl (~> 4.5.0)
+    factory_girl_rails (4.7.0)
+      factory_girl (~> 4.7.0)
       railties (>= 3.0.0)
     ffi (1.9.10)
     flot-rails (0.0.6)
@@ -192,7 +192,7 @@ GEM
       shellany (~> 0.0)
       thor (>= 0.18.1)
     guard-compat (1.2.1)
-    guard-rspec (4.6.4)
+    guard-rspec (4.6.5)
       guard (~> 2.1)
       guard-compat (~> 1.1)
       rspec (>= 2.99.0, < 4.0)
@@ -223,13 +223,14 @@ GEM
     jquery-ui-rails (5.0.5)
       railties (>= 3.2.16)
     json (1.8.3)
-    kramdown (1.10.0)
+    kramdown (1.11.1)
     launchy (2.4.3)
       addressable (~> 2.3)
-    libv8 (3.16.14.13)
-    listen (3.0.6)
-      rb-fsevent (>= 0.9.3)
-      rb-inotify (>= 0.9.7)
+    libv8 (3.16.14.15)
+    listen (3.1.3)
+      rb-fsevent (~> 0.9, >= 0.9.7)
+      rb-inotify (~> 0.9, >= 0.9.7)
+      ruby_dep (~> 1.2)
     loofah (2.0.3)
       nokogiri (>= 1.5.9)
     lumberjack (1.0.10)
@@ -240,11 +241,11 @@ GEM
     mimemagic (0.3.0)
     mini_portile2 (2.0.0)
     minitest (5.8.4)
-    multi_json (1.11.2)
+    multi_json (1.12.0)
     mysql2 (0.3.20)
     nenv (0.3.0)
     netrc (0.11.0)
-    newrelic_rpm (3.15.0.314)
+    newrelic_rpm (3.15.2.317)
     nokogiri (1.6.7.2)
       mini_portile2 (~> 2.0.0.rc2)
     notiffany (0.0.8)
@@ -256,7 +257,7 @@ GEM
       cocaine (~> 0.5.5)
       mime-types
       mimemagic (= 0.3.0)
-    parser (2.3.0.6)
+    parser (2.3.1.0)
       ast (~> 2.2)
     pdf-core (0.6.1)
     polyamorous (1.3.0)
@@ -320,13 +321,13 @@ GEM
       http-cookie (>= 1.0.2, < 2.0)
       mime-types (>= 1.16, < 3.0)
       netrc (~> 0.7)
-    rollbar (2.8.3)
+    rollbar (2.11.2)
       multi_json
     rspec (3.4.0)
       rspec-core (~> 3.4.0)
       rspec-expectations (~> 3.4.0)
       rspec-mocks (~> 3.4.0)
-    rspec-core (3.4.3)
+    rspec-core (3.4.4)
       rspec-support (~> 3.4.0)
     rspec-expectations (3.4.0)
       diff-lcs (>= 1.2.0, < 2.0)
@@ -343,6 +344,7 @@ GEM
       rspec-mocks (~> 3.4.0)
       rspec-support (~> 3.4.0)
     rspec-support (3.4.1)
+    ruby_dep (1.2.0)
     sass (3.4.22)
     sass-rails (5.0.4)
       railties (>= 4.0.0, < 5.0)
@@ -365,7 +367,7 @@ GEM
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
     sqlite3 (1.3.11)
-    stripe (1.39.0)
+    stripe (1.42.0)
       rest-client (~> 1.4)
     term-ansicolor (1.3.2)
       tins (~> 1.0)
@@ -381,13 +383,12 @@ GEM
     thread (0.2.2)
     thread_safe (0.3.5)
     tilt (2.0.2)
-    tins (1.8.2)
+    tins (1.10.1)
     ttfunk (1.4.0)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
-    uglifier (2.7.2)
-      execjs (>= 0.3.0)
-      json (>= 1.8.0)
+    uglifier (3.0.0)
+      execjs (>= 0.3.0, < 3)
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.7.2)
@@ -438,4 +439,4 @@ DEPENDENCIES
   uglifier
 
 BUNDLED WITH
-   1.11.2
+   1.12.1
