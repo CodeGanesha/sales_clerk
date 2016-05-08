@@ -14,15 +14,6 @@
     = stylesheet_link_tag "sales_clerk" , :media => 'all'
     = javascript_include_tag "sales_clerk"
     = csrf_meta_tags
-    -if ENV["KAUPPA_ID"]
-      :javascript
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-        var the_id = '#{ENV["KAUPPA_ID"]}';
-        ga('create', the_id.replace("-1","-6") , 'auringostaitaan.fi');
-        ga('send', 'pageview');
   %body
     %nav.navbar.navbar-inverse.navbar-fixed-top.taustalogo{:role => "navigation"}
       .container-fluid
@@ -80,3 +71,12 @@
 
 
       =render "layouts/footer"
+    -if ENV["KAUPPA_ID"]
+      :javascript
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        var the_id = '#{ENV["KAUPPA_ID"]}';
+        ga('create', the_id.replace("9-1","9-6") , 'auringostaitaan.fi');
+        ga('send', 'pageview');
