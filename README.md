@@ -87,6 +87,8 @@ It already includes an example admin (as above).
 
 RubyClerks configuration is in config *files* , specifically config/locales/config.yml
 
+Check config/environments/production.rb and change email setting.
+
 Off course you may wish to add or remove other clerks or extensions by adding them to your Gemfile.
 
 ### Take ownership
