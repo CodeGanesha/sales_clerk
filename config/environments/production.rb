@@ -31,13 +31,28 @@ SalesClerk::Application.configure do
   # Set to :debug to see everything in the log.
   config.log_level = :info
 
+  # ActionMailer Config
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.smtp_settings = {
+        :address              => "smtp.zoho.com",
+        :port                 => 465,
+        :domain               => Rails.application.secrets.domain_name,
+        :user_name            => Rails.application.secrets.admin_email,
+        :password             => Rails.application.secrets.admin_pass,
+        :ssl                  => true,
+        :tls                  => true,
+        :authentication       => :login,
+        :enable_starttls_auto => true
+  }
+
+
   config.action_mailer.delivery_method = :sendmail
   config.action_mailer.perform_deliveries = true
   config.action_mailer.raise_delivery_errors = true
-  config.action_mailer.default_options = {from: 'info@auringostaitaan.fi' ,
-                                          cc: 'info@auringostaitaan.fi' ,
-                                          bcc: 'markus.janhunen@iki.fi' }
-  config.action_mailer.default_url_options = { :host => 'auringostaitaan.fi' }
+  config.action_mailer.default_options = {from: Rails.application.secrets.admin_email ,
+                                          cc: Rails.application.secrets.admin_email ,
+                                          bcc: Rails.application.secrets.admin_bcc }
+  config.action_mailer.default_url_options = { :host => Rails.application.secrets.domain_name }
 
   # Enable locale fallbacks for I18n (makes lookups for any locale fall back to
   # the I18n.default_locale when a translation can not be found).
