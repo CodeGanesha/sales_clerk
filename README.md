@@ -79,7 +79,7 @@ and start creating some.
 
 You can also load a sample database using task
 ```
-rake db:fixtures
+rake db:load_fixtures_en
 ```
 It already includes an example admin (as above).
 
