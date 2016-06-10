@@ -1,8 +1,8 @@
 class ShopController < ApplicationController
   layout "sales_clerk"
   include OfficeHelper
-  include StripeClerk::ChargesHelper
-  helper StripeClerk::ChargesHelper
+  include ChargesHelper
+  helper ChargesHelper
 
   force_ssl :if => :has_ssl? , :only => :sign_out
 

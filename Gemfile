@@ -7,11 +7,6 @@ gem 'accountant_clerk' , github: "rubyclerks/accountant_clerk"
 gem 'print_clerk' , github: "rubyclerks/print_clerk"
 #gem 'print_clerk' , path: "../print_clerk"
 
-#gem 'barby' , github: "rubyclerks/barby"
-
-gem "stripe_clerk", github: "rubyclerks/stripe_clerk"
-#gem 'stripe_clerk' , path: "../stripe_clerk"
-
 gem 'post_clerk' ,  github: "rubyclerks/post_clerk"
 
 gem "office_clerk", github: "rubyclerks/office_clerk"
@@ -29,12 +24,14 @@ gem 'rack-attack'
 # error collection
 gem 'rollbar'
 
+gem "stripe"
+
 group :development do
   gem 'better_errors' , :platforms=>[:mri_20, :mri_21, :rbx]
   gem 'binding_of_caller', :platforms=>[:mri_19, :mri_20, :mri_21,:rbx]
   gem "i18n-tasks"
   gem 'quiet_assets'
-  gem "thin"
+  gem "puma"
   gem "rb-readline"
 end
 
@@ -47,8 +44,9 @@ group  :production do
 end
 
 group :test do
-#  gem "poltergeist"
-#  gem "phantomjs"
+  gem "poltergeist"
+  gem "phantomjs" , :require => 'phantomjs/poltergeist'
+  gem 'rack_session_access'
   gem "codeclimate-test-reporter"
   gem 'rspec-rails'
   gem 'capybara'

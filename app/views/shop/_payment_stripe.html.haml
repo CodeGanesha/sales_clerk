@@ -10,13 +10,13 @@
         %h4 Ostoksen maksaminen
 
         - if order.paid_on && order.payment_type == "stripe"
-          = render partial: 'stripe_clerk/charges/show', locals: {order: order}
+          = render partial: 'charges/show', locals: {order: order}
         - elsif order.paid_on
           Thank you, we got your money transfer (
           = euros order.total_price
           )
         - else
-          = render partial: 'stripe_clerk/charges/new', locals: {order: order}
+          = render partial: 'charges/new', locals: {order: order}
     - unless order.paid_on
       %div
         %br/

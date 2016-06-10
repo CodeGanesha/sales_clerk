@@ -9,6 +9,7 @@ require File.expand_path("../../config/environment",  __FILE__)
 Rails.backtrace_cleaner.remove_silencers!
 
 require "rspec/rails"
+require "rack_session_access/capybara"
 
 Dir["#{File.dirname(__FILE__)}/support/**/*.rb"].each { |f| require f }
 
