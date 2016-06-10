@@ -9,13 +9,8 @@ class ApplicationController < ActionController::Base
     render status: 404 , :text => "move along"
   end
 
-end
-
-module StripeClerk
-  class ApplicationController < ActionController::Base
-    # a possibility to get a mail out or something
-    def post_charge_hook
-      OrderMailer.paid(@order).deliver_now
-    end
+  # a possibility to get a mail out or something
+  def post_charge_hook
+    OrderMailer.paid(@order).deliver_now
   end
 end
