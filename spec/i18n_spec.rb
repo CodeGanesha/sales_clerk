@@ -14,8 +14,14 @@ describe 'locale:' do
       it { is_expected.to have_one_top_level_namespace }
       it { is_expected.not_to have_legacy_interpolations }
       it { is_expected.to have_a_valid_locale }
-      it { is_expected.to be_a_complete_translation_of 'config/locales/en.yml' }
     end
+  end
+
+  context "config/locales/fi.yml" do
+    it { is_expected.to be_a_complete_translation_of 'config/locales/en.yml' }
+  end
+  context "config/locales/stripe_clerk_fi.yml" do
+    it { is_expected.to be_a_complete_translation_of 'config/locales/stripe_clerk_en.yml' }
   end
   context 'config/locales/en.yml' do
     it { is_expected.to be_a_complete_translation_of 'config/locales/fi.yml' }

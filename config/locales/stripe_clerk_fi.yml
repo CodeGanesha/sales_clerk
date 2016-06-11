@@ -1,7 +1,6 @@
 fi:
-    stripe_clerk:
-      paid: Maksettu
-      transfer: Maksa tilisiirrolla
-      amount: Määrä
-      pay_with_card: Maksa kortilla
-      company: Auringosta Itään, Kuusta Länteen
+  stripe_clerk:
+    paid: Maksettu
+    amount: Määrä
+    pay_with_card: Maksa kortilla
+    company: Auringosta Itään, Kuusta Länteen

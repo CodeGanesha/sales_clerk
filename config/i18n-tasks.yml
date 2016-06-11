@@ -15,8 +15,7 @@ data:
 
   # Locale files to read from
   read:
-    - config/locales/%{locale}.yml
-    # - config/locales/*.%{locale}.yml
+    - config/locales/*%{locale}.yml
     # - config/locales/**/*.%{locale}.yml
 
   # key => file routes, matched top to bottom
@@ -95,6 +94,7 @@ ignore_missing:
   - checkout
   - paid_on
   - pay
+  - order_number
 
 # - 'errors.messages.{accepted,blank,invalid,too_short,too_long}'
 # - '{devise,simple_form}.*'
