@@ -95,7 +95,6 @@ ignore_missing:
   - paid_on
   - pay
   - order_number
-  - shop_link
 
 # - 'errors.messages.{accepted,blank,invalid,too_short,too_long}'
 # - '{devise,simple_form}.*'
