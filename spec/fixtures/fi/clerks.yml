@@ -7,7 +7,7 @@ Clerk_1:
   password_salt: arpjiqGNFjsUeqCg3Qxw
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   created_at: 2010-01-03 09:46:51.000000000 Z
-  updated_at: 2014-01-28 21:24:20.144444000 Z
+  updated_at: 2014-01-28 21:24:20.000000000 Z
 Clerk_2:
   id: 2
   email: pirita.pauni@gmail.com
@@ -16,7 +16,7 @@ Clerk_2:
   password_salt: Gfi9ozcQqyJNeMoiTXhJ
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   created_at: 2011-10-24 08:06:39.000000000 Z
-  updated_at: 2014-01-28 21:24:36.294990000 Z
+  updated_at: 2014-01-28 21:24:36.000000000 Z
 Clerk_3:
   id: 3
   email: hannaholma@gmail.com
@@ -25,7 +25,7 @@ Clerk_3:
   password_salt: q6YzY3QKHAyipsgGHid6
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   created_at: 2011-09-18 12:27:37.000000000 Z
-  updated_at: 2014-01-28 21:25:26.664770000 Z
+  updated_at: 2014-01-28 21:25:26.000000000 Z
 Clerk_4:
   id: 4
   email: minnaj@iki.fi
@@ -34,7 +34,7 @@ Clerk_4:
   password_salt: Uqc2smVjwsXzcjsdmsnf
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   created_at: 2011-10-24 08:07:09.000000000 Z
-  updated_at: 2014-01-28 21:25:45.072507000 Z
+  updated_at: 2014-01-28 21:25:45.000000000 Z
 Clerk_5:
   id: 5
   email: pasanenj@ovi.com
@@ -52,7 +52,7 @@ Clerk_6:
   password_salt: iyEb5P5fRTkSxVKR8wrV
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   created_at: 2011-10-24 08:06:00.000000000 Z
-  updated_at: 2014-01-28 21:25:58.223702000 Z
+  updated_at: 2014-01-28 21:25:58.000000000 Z
 Clerk_7:
   id: 7
   email: mlk.rissanen@gmail.com
@@ -70,7 +70,7 @@ Clerk_8:
   password_salt: gWdsWNOIADUEDiNWcL7J
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
   created_at: 2010-01-01 13:36:41.000000000 Z
-  updated_at: 2014-01-28 21:22:47.173246000 Z
+  updated_at: 2014-01-28 21:22:47.000000000 Z
 Clerk_9:
   id: 9
   email: sanna.siniketo@sofigate.com
@@ -519,8 +519,8 @@ Clerk_58:
   encrypted_password: 01617581ed0b9a24403516a55a4b529d4eeb22926e166ca27aea28362eb235760dd418ae6cf07da1c60ce9263b61376ad7aeb9c4f50f0a36709323df546f2782
   password_salt: "$2a$10$wTV01l5NNsQ4MHXeCnFIdu"
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2015-03-01 10:14:17.444346000 Z
-  updated_at: 2015-03-01 10:14:17.444346000 Z
+  created_at: 2015-03-01 10:14:17.000000000 Z
+  updated_at: 2015-03-01 10:14:17.000000000 Z
 Clerk_59:
   id: 59
   email: sirkka.sundman@gmail.com
@@ -528,8 +528,8 @@ Clerk_59:
   encrypted_password: b5ce3f3f80d9083e45bbb1cab49b00d286cce9c062bb6934b0212745495600f54d5ed0d257bccb087ea0473eb48207f5e4c35de50b465b2ad3efc244afd4f0e5
   password_salt: "$2a$10$HL/Vn.OON83PL8uMg3p0b."
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2015-03-03 11:55:15.440797000 Z
-  updated_at: 2015-03-03 11:55:15.440797000 Z
+  created_at: 2015-03-03 11:55:15.000000000 Z
+  updated_at: 2015-03-03 11:55:15.000000000 Z
 Clerk_60:
   id: 60
   email: lenartia@hotmail.com
@@ -537,8 +537,8 @@ Clerk_60:
   encrypted_password: f084d50d80149aac4ce961def2e9821e745e797d897edd1ebc1b1ffdd7959b29730b66a3ec4c119d04ebdaaa2fa4b8e26da70f4caeccbf22f9da1341e599bca6
   password_salt: "$2a$10$xP//3HUD4Ch5qmQOo4oP3."
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2015-03-05 16:43:06.027212000 Z
-  updated_at: 2015-03-05 16:43:06.027212000 Z
+  created_at: 2015-03-05 16:43:06.000000000 Z
+  updated_at: 2015-03-05 16:43:06.000000000 Z
 Clerk_61:
   id: 61
   email: paivi.hotinen@gamil.com
@@ -546,8 +546,8 @@ Clerk_61:
   encrypted_password: 6c51912932c9f97e5590c7581572079fb43ef21b7df0663c2d16e1f91c6aa6a9b4b8d7b9bb55467e0fd2d0dad9c14c40e47d7f311234b16f008541525615a780
   password_salt: "$2a$10$XC2roEJ9MVDyUZ/Wfbmqsu"
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2015-03-07 15:35:49.703057000 Z
-  updated_at: 2015-03-07 15:35:49.703057000 Z
+  created_at: 2015-03-07 15:35:49.000000000 Z
+  updated_at: 2015-03-07 15:35:49.000000000 Z
 Clerk_62:
   id: 62
   email: admin@example.com
@@ -555,8 +555,8 @@ Clerk_62:
   encrypted_password: bf8ef057a8f5ed7fdc4ae94e02edc8d92b8cce2559720f21c7d51ceaf9b2aa66f8163e0909a3f8baa7969cd1d357dd11a3d58b45225766e8463f0e738a81c437
   password_salt: "$2a$10$/caTQbX01D85Vo8aB2Ntju"
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2015-03-22 14:53:09.076997000 Z
-  updated_at: 2015-03-22 14:53:09.076997000 Z
+  created_at: 2015-03-22 14:53:09.000000000 Z
+  updated_at: 2015-03-22 14:53:09.000000000 Z
 Clerk_63:
   id: 63
   email: miia.lahti@netikka.fi
@@ -564,8 +564,8 @@ Clerk_63:
   encrypted_password: 104112c717fdee42cb57a20ff3da26f9fbb1ab0f2a7abac4134c9f9c2e7f07aad4a2306cd8a111415d1e8835fee9b9aceab63024d91fc48dfad1df8a982d381c
   password_salt: "$2a$10$lrdBgvsSc3xVqc79VlQ5Ze"
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2015-04-13 16:13:37.992092000 Z
-  updated_at: 2015-04-13 16:13:37.992092000 Z
+  created_at: 2015-04-13 16:13:37.000000000 Z
+  updated_at: 2015-04-13 16:13:37.000000000 Z
 Clerk_64:
   id: 64
   email: vade87@hotmail.com
@@ -573,8 +573,8 @@ Clerk_64:
   encrypted_password: 9a3a37c20b345ef21db8fa05964c412eef816fd6d747e3b091d64ef5061041ffdabb63cafea5c12fc88b0a244069722120948fb98795718409b859628cf1b754
   password_salt: "$2a$10$8KEsqctmWPISNt3M1S4R3e"
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2015-05-12 13:16:57.186799000 Z
-  updated_at: 2015-05-12 13:16:57.186799000 Z
+  created_at: 2015-05-12 13:16:57.000000000 Z
+  updated_at: 2015-05-12 13:16:57.000000000 Z
 Clerk_65:
   id: 65
   email: merrja.rajamaki@gmail.com
@@ -582,8 +582,8 @@ Clerk_65:
   encrypted_password: 083882e29c3029e57a28e4826e2e58fd8592d7e038364c2b52984a337f6a16cae86bd33e3bdbf6059fbfe77e8da68151a5d6cfd3cb5a4c4b44448431de2c120d
   password_salt: "$2a$10$FTnrqyOFVktpQxFZvOKtpu"
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2015-06-01 10:52:21.396455000 Z
-  updated_at: 2015-06-01 10:52:21.396455000 Z
+  created_at: 2015-06-01 10:52:21.000000000 Z
+  updated_at: 2015-06-01 10:52:21.000000000 Z
 Clerk_66:
   id: 66
   email: ifilippo@welho.com
@@ -591,8 +591,8 @@ Clerk_66:
   encrypted_password: 04cec3060e9a6cb768b6e4060447c9a9a74b9109e2a9fd2376ca4c1d734dcb8a0d38c3aa6e50496b8a11065dc6c040a6073fb5d393f7fee96509370d6d6624a7
   password_salt: "$2a$10$EKO7wMQqIotLOoNnWxOKZe"
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2015-06-19 18:39:16.185347000 Z
-  updated_at: 2015-06-19 18:39:16.185347000 Z
+  created_at: 2015-06-19 18:39:16.000000000 Z
+  updated_at: 2015-06-19 18:39:16.000000000 Z
 Clerk_67:
   id: 67
   email: jari.utti@pp.inet.fi
@@ -600,8 +600,8 @@ Clerk_67:
   encrypted_password: 0d23adb2617f315dc694b5d499acceb7428ffa88604669cb166bca8ad368863695b633d57b1742529769fd10a73309baa46177896f6a7ceedeceb13dc9a46563
   password_salt: "$2a$10$u5auY/MFUUykYbL7uDk/Ue"
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2015-07-11 17:41:16.693448000 Z
-  updated_at: 2015-07-11 17:41:16.693448000 Z
+  created_at: 2015-07-11 17:41:16.000000000 Z
+  updated_at: 2015-07-11 17:41:16.000000000 Z
 Clerk_68:
   id: 68
   email: sike.tahko@gmail.com
@@ -609,8 +609,8 @@ Clerk_68:
   encrypted_password: d06245be896c5450c62ef2db544aed0bdbe1311a55ccc9188f9ed7a22dc6dbbd97fcd1bb2e61f30441bfd63791ea25336d8429865a7f8e8cb2c5bc8b79681dc0
   password_salt: "$2a$10$ODzVBpdpeGp/AdYklpD/wu"
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2015-07-20 16:03:31.514317000 Z
-  updated_at: 2015-07-20 16:03:31.514317000 Z
+  created_at: 2015-07-20 16:03:31.000000000 Z
+  updated_at: 2015-07-20 16:03:31.000000000 Z
 Clerk_69:
   id: 69
   email: graninnoita@netti.fi
@@ -618,8 +618,8 @@ Clerk_69:
   encrypted_password: c05c9a565a4036333c589cce2e900cf067c28318ea97306675b261de51ba0251422e310aa3f4be363665886469b9bee8e9e37a6998f06e9a56fb47443331b8b1
   password_salt: "$2a$10$pAR7OF/d4jMWJcvFULomK."
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2015-07-22 08:13:02.138781000 Z
-  updated_at: 2015-07-22 08:13:02.138781000 Z
+  created_at: 2015-07-22 08:13:02.000000000 Z
+  updated_at: 2015-07-22 08:13:02.000000000 Z
 Clerk_70:
   id: 70
   email: grannika@gmail.com
@@ -627,8 +627,8 @@ Clerk_70:
   encrypted_password: 55ed384f345fd53948dfb7867b1f16b07dad26d7b9f2885c4c8c4a769de7f2d704ad05376cdbf1bc34059435c272a004b0506400185a0039ff2d57252be729ad
   password_salt: "$2a$10$F.R16EqtzCa.IeNFQ9oiKO"
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2015-07-23 13:29:26.377521000 Z
-  updated_at: 2015-07-23 13:29:26.377521000 Z
+  created_at: 2015-07-23 13:29:26.000000000 Z
+  updated_at: 2015-07-23 13:29:26.000000000 Z
 Clerk_71:
   id: 71
   email: soilikyllinen@gmail.com
@@ -636,8 +636,8 @@ Clerk_71:
   encrypted_password: 55dc802abb0b9a26f0374a3464166cb2e8ee5ad0851864b22abf500ea30efd42ca550d2c9adcdb994673a8cc98acaf61daa306b5807174db4362b352698660b0
   password_salt: "$2a$10$SgRIV586UGg9WHoFqs0.2e"
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2015-07-28 18:00:12.840786000 Z
-  updated_at: 2015-07-28 18:00:12.840786000 Z
+  created_at: 2015-07-28 18:00:12.000000000 Z
+  updated_at: 2015-07-28 18:00:12.000000000 Z
 Clerk_72:
   id: 72
   email: arjaki@gmail.com
@@ -645,8 +645,8 @@ Clerk_72:
   encrypted_password: d7425e2685d1ddbc1c77af430f6d3d7429f469fe85abbb24b24b8e0df1186ce501b17b212bc8ac52bfd324b5604f7a53d93ad500a71381ddcc0779fefb3b8ef1
   password_salt: "$2a$10$c0.U6zX1OnyX9mLVeR0F8O"
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2015-08-01 13:56:45.757059000 Z
-  updated_at: 2015-08-01 13:56:45.757059000 Z
+  created_at: 2015-08-01 13:56:45.000000000 Z
+  updated_at: 2015-08-01 13:56:45.000000000 Z
 Clerk_73:
   id: 73
   email: nissinenmaarit@hotmail.com
@@ -654,8 +654,8 @@ Clerk_73:
   encrypted_password: 000b1c8b52acbb29b43184810d4004ba24628e984d1a4d24ebf60f4974f5811461ba15b39ea4b27a10a53a40dc056a78fa82864b30845cd50296b1a26ede6f78
   password_salt: "$2a$10$8c6EXXqzIfrtfR/wKl7sC."
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2015-08-03 19:43:00.815406000 Z
-  updated_at: 2015-08-03 19:43:00.815406000 Z
+  created_at: 2015-08-03 19:43:00.000000000 Z
+  updated_at: 2015-08-03 19:43:00.000000000 Z
 Clerk_74:
   id: 74
   email: johanna.hukkanen@hotmail.com
@@ -663,8 +663,8 @@ Clerk_74:
   encrypted_password: 348e2e9f778164c58736deabf08049aa215a1a914ba1161581bfa00ed2577f2aa8f30c268d9323252754aa5ce7e8be9172dc256f0f41070cd8044059151fc07f
   password_salt: "$2a$10$wDJs.zeb74ks605gQkSKju"
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2015-08-16 16:00:33.065857000 Z
-  updated_at: 2015-08-16 16:00:33.065857000 Z
+  created_at: 2015-08-16 16:00:33.000000000 Z
+  updated_at: 2015-08-16 16:00:33.000000000 Z
 Clerk_75:
   id: 75
   email: kaunishius@gmail.com
@@ -672,8 +672,8 @@ Clerk_75:
   encrypted_password: a8b7f6cc910194e3d5c1b3c9d91476726d782285eb746645a88f47779f085394000bba99ee8611b0f90f6c68b9c3fec455395ebaaf4ab80747b507ef525876c7
   password_salt: "$2a$10$GfJKiymGQuPRyxTI5brgJu"
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2015-09-16 11:57:07.376898000 Z
-  updated_at: 2015-09-16 11:57:07.376898000 Z
+  created_at: 2015-09-16 11:57:07.000000000 Z
+  updated_at: 2015-09-16 11:57:07.000000000 Z
 Clerk_76:
   id: 76
   email: paivikuikka0@gmail.com
@@ -685,8 +685,8 @@ Clerk_76:
     street: 'kaskenkaatajank 26 b 8 '
     city: '15230 lahti '
     phone: 0404177318
-  created_at: 2015-10-31 20:05:48.557827000 Z
-  updated_at: 2015-11-01 17:23:49.863229000 Z
+  created_at: 2015-10-31 20:05:48.000000000 Z
+  updated_at: 2015-11-01 17:23:49.000000000 Z
 Clerk_77:
   id: 77
   email: paevi2@suomi24.fi
@@ -694,8 +694,8 @@ Clerk_77:
   encrypted_password: 156213169c59972f608522bfe9a8f28e03b25d5d5601e3ddb56c8f8d25429b812059a81ee06fe9d346ab57b337413c0556e81bc020de93245457eaa14b803743
   password_salt: "$2a$10$iKb0367mLhAHhARcfaFnFu"
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2015-10-31 21:52:52.414964000 Z
-  updated_at: 2015-10-31 21:52:52.414964000 Z
+  created_at: 2015-10-31 21:52:52.000000000 Z
+  updated_at: 2015-10-31 21:52:52.000000000 Z
 Clerk_78:
   id: 78
   email: kosmetiikka@pur-kauppa.fi
@@ -703,8 +703,8 @@ Clerk_78:
   encrypted_password: 7b0049ad30ba52f2db4626f7aff82fe9999dc5c1651788e52da54a6d8ac58e472ae517920acb76e8299988160f91488a4a57bd4a248997040a33fdaf8c39c0c9
   password_salt: "$2a$10$aX9mV8Ojz5VbUyi2K6joCu"
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2015-11-05 09:39:27.298235000 Z
-  updated_at: 2015-11-05 09:39:27.298235000 Z
+  created_at: 2015-11-05 09:39:27.000000000 Z
+  updated_at: 2015-11-05 09:39:27.000000000 Z
 Clerk_79:
   id: 79
   email: tp18440@gmail.com
@@ -712,8 +712,8 @@ Clerk_79:
   encrypted_password: 11913edcbaebe9f096e14ae6e9d37d711dd3cf80d46fea8b0384ccbc4bbc2f464cded61cbd5f9ba64f890e44f684005bf8caebbb109d3f43440cd8008dc94489
   password_salt: "$2a$10$x4fxOqwcNU1/zMYEM9zgle"
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2015-11-10 10:27:04.332839000 Z
-  updated_at: 2015-11-10 10:27:04.332839000 Z
+  created_at: 2015-11-10 10:27:04.000000000 Z
+  updated_at: 2015-11-10 10:27:04.000000000 Z
 Clerk_80:
   id: 80
   email: valimaki.silja@suomi24.fi
@@ -721,8 +721,8 @@ Clerk_80:
   encrypted_password: 235af44f5ffa56154102789e6b9e7db34531783217ec6e43f12e16c0f60d3816bf295309f83fbd8c76a5514121f7130aba6918c8e97ba1f73d849979220ee581
   password_salt: "$2a$10$oEFAlxAM286n/4YbSiNO1u"
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2015-11-25 15:19:11.725094000 Z
-  updated_at: 2015-11-25 15:19:11.725094000 Z
+  created_at: 2015-11-25 15:19:11.000000000 Z
+  updated_at: 2015-11-25 15:19:11.000000000 Z
 Clerk_81:
   id: 81
   email: carlacounrycottage@gmail.com
@@ -730,5 +730,212 @@ Clerk_81:
   encrypted_password: f6d45cfe17e26a0f0a21b2ff394a673b636b6fb80324266fbe84bbb5a4e9ae3caf372f7a35b967bf1c0b1098bea31b2f9920256ac52b9eef1277d8937ba7c2d9
   password_salt: "$2a$10$OEwWFlCU0v0UVS1hR/hQpO"
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2015-12-04 05:55:41.322519000 Z
-  updated_at: 2015-12-04 05:55:41.322519000 Z
+  created_at: 2015-12-04 05:55:41.000000000 Z
+  updated_at: 2015-12-04 05:55:41.000000000 Z
+Clerk_82:
+  id: 82
+  email: dave.harral@gmail.com
+  admin: false
+  encrypted_password: ca0fc072eed09115b201541ec20de2463031df00906f94909e90a2948552927ef2e094fc8fcd7bcd09767c54b47dcf3b2c2a20c6131520d9f70e7b93729c4816
+  password_salt: "$2a$10$CcrsOdqF6SlldKE6fReL7."
+  address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
+  created_at: 2016-01-10 17:49:16.000000000 Z
+  updated_at: 2016-01-10 17:49:16.000000000 Z
+Clerk_83:
+  id: 83
+  email: minnik83@hotmail.com
+  admin: false
+  encrypted_password: 35fa4e16880bf076785e1044dfb1f8baeb09065b9ff5e0b31867858b6ab2cf696cb251341966a20d479dc0fd5792ff62357fa447e76c7b705cdd7dc30784808c
+  password_salt: "$2a$10$dmq6Zx9xFUejm5aRlRqg5O"
+  address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
+  created_at: 2016-01-16 16:49:16.000000000 Z
+  updated_at: 2016-01-16 16:49:16.000000000 Z
+Clerk_84:
+  id: 84
+  email: miia.rintakonno@gmail.com
+  admin: false
+  encrypted_password: fae4f6b98f02685678adce71d0d92b19f0798db95c892148fa6ee6de607fa8f9a643d179e3dae6ac54b841773aaf4b0566876499018189920203878c02b9cede
+  password_salt: "$2a$10$Mr4sjDASH7WLWTDW0ZJD5u"
+  address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
+  created_at: 2016-02-11 18:35:02.000000000 Z
+  updated_at: 2016-02-11 18:35:02.000000000 Z
+Clerk_85:
+  id: 85
+  email: anu@ekokampaamoaura.fi
+  admin: false
+  encrypted_password: b6d72ee4c8bc16feebfb2ab4c5bd1e4120a14abe534536d701cd183573d0b40cccc955ec3959942b255c173f373bc06812826c43ff2d3c52093a55ae5bf26bca
+  password_salt: "$2a$10$1RviXjcMyYDqwsrPDohlWu"
+  address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
+  created_at: 2016-02-16 22:16:04.000000000 Z
+  updated_at: 2016-02-16 22:16:04.000000000 Z
+Clerk_86:
+  id: 86
+  email: lejoalho@gmail.com
+  admin: false
+  encrypted_password: df81da9fecbb451a68ca7f1acc770c2d5fc4ad536a37737d2a848f007c1ffec45bb0b4d7d7f447f0a76b997f576aa2d00146b45cd8535f217c7ede28b28c9cb9
+  password_salt: "$2a$10$65uarnRS5qlUjrb3FVATZ."
+  address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
+  created_at: 2016-03-06 12:07:18.000000000 Z
+  updated_at: 2016-03-06 12:07:18.000000000 Z
+Clerk_87:
+  id: 87
+  email: kaarina.ekman-laine@hotmail.com
+  admin: false
+  encrypted_password: bbd99b894249e4950ddd09e87c4325b9d6c878490d5dd6dcd88ba8caa52e18ec1f18230ba2f1b19fc9a0b24766347b3aa525dda20355e8e293040814e08c80ca
+  password_salt: "$2a$10$i/SPXWHLqs0zgWKXKLBdeO"
+  address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
+  created_at: 2016-03-08 07:05:55.000000000 Z
+  updated_at: 2016-03-08 07:05:55.000000000 Z
+Clerk_88:
+  id: 88
+  email: Eili.lindstrom@elisanet.fi
+  admin: false
+  encrypted_password: ce51987ea4f4539096ebbe3c96f4e0517afa829366bd56945abca8366c661ef3ca3c6854bea1a36cb5f8d1341a32fa3936be69db55ed0208d2d7924e097f2a92
+  password_salt: "$2a$10$MDe3snh.vU1hX7l2dApYZ."
+  address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
+  created_at: 2016-03-24 05:54:44.000000000 Z
+  updated_at: 2016-03-24 05:54:44.000000000 Z
+Clerk_89:
+  id: 89
+  email: info@hiusjakauneuslahde.fi
+  admin: false
+  encrypted_password: c24a26656d4b35641d594565626cbc758fa5ad7ac159ca2980a98e24e38368396cc5f1fdf1d494e5e778bc3c3657c98f08743ae2a6a3006b8140019ea6812c70
+  password_salt: "$2a$10$O3go7PO9ynkIBckTRMdt3."
+  address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
+  created_at: 2016-04-23 08:09:40.000000000 Z
+  updated_at: 2016-04-23 08:09:40.000000000 Z
+Clerk_90:
+  id: 90
+  email: anna.leppakorpi@gmail.com
+  admin: false
+  encrypted_password: a489c3af0285665c598e59df0224d3ace59b6ec192acc8e4938771422f0586c5cbe6eda914960ce2a98aba6fdd413e7a7b5a0925bba8cc345a4db8316f94ff56
+  password_salt: "$2a$10$fURWOGZ3F7Po/tpu9Szg4e"
+  address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
+  created_at: 2016-05-19 09:44:04.000000000 Z
+  updated_at: 2016-05-19 09:44:04.000000000 Z
+Clerk_91:
+  id: 91
+  email: kirsi.virtanen@gmail.com
+  admin: false
+  encrypted_password: bbcfaabdf5c0414ff37152ac40304801b2b73e1df4984e702efdce1e62d7022997be1465a9b1eb2bd9aea9f5f667fad8f03f0c6434f5f30efdf58c541c8d7e53
+  password_salt: "$2a$10$JniG6UAP5pbEWLQIZ3CmJ."
+  address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
+  created_at: 2016-05-19 11:38:57.000000000 Z
+  updated_at: 2016-05-19 11:38:57.000000000 Z
+Clerk_92:
+  id: 92
+  email: pate.huttunen@hotmail.com
+  admin: false
+  encrypted_password: 9f9dde970e308f12691a99c15eedf01cb60e348d22717e7f21bfe21386fe7d16a2c9d5f6e1fc3b8de1e44275fd5ccb037f74929bdd03eb5302a865d02253d1c9
+  password_salt: "$2a$10$NdI1Mf1ps0rKYJUOe3Kisu"
+  address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
+  created_at: 2016-06-18 20:55:52.000000000 Z
+  updated_at: 2016-06-18 20:55:52.000000000 Z
+Clerk_93:
+  id: 93
+  email: marikasilvasti@hotmail.com
+  admin: false
+  encrypted_password: da009ea49d003343c3cd0aa9d0ae5e18d0bc9a45820b086ec557868a67977b74dde0a7d82204131cee2a5255ed9faa4a46b5d2c283a9d92a3cac76b6b1517afe
+  password_salt: "$2a$10$IZjk46/qzfHhWA5roWYWCu"
+  address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
+  created_at: 2016-07-03 13:55:53.000000000 Z
+  updated_at: 2016-07-03 13:55:53.000000000 Z
+Clerk_94:
+  id: 94
+  email: ejokelainen@gmail.com
+  admin: false
+  encrypted_password: 9c81cda366717a5d392846be2834536b8158eed2c3dfa05ce5df45df712411d0a05ae8ac0df73867121590098a4dcdf9f74dd4f0f62445d7cb61fe67b70b8029
+  password_salt: "$2a$10$c0WpByunyN8jQ0BGfH09se"
+  address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
+  created_at: 2016-07-13 06:06:59.000000000 Z
+  updated_at: 2016-07-13 06:06:59.000000000 Z
+Clerk_95:
+  id: 95
+  email: pekka.jarvelainen@netti.fi
+  admin: false
+  encrypted_password: 32dd1b71e4d87b5d78a685c16ff6d1f96af6b2bb4d2510dcd87aebfe9b19c372541d756e9eb6019fb9f034b342ec19a129bb9803d96b59387785fc22770e20bd
+  password_salt: "$2a$10$d4EIMiR54PL8unz7LDhZY."
+  address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
+  created_at: 2016-08-07 19:08:06.000000000 Z
+  updated_at: 2016-08-07 19:08:06.000000000 Z
+Clerk_96:
+  id: 96
+  email: jjmakkonen@luukku.com
+  admin: false
+  encrypted_password: 01ff24b0382df3c3b429fca625e257a9f4e4c106dcec1df58fe6ef697fa9e81d1f925c64e64b2aa6875cd2813397ef44d730a790e7c11229b056e2cf8502dfd3
+  password_salt: "$2a$10$HPgVWppuVY6LgqRjmjLg0."
+  address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
+  created_at: 2016-08-20 04:32:11.000000000 Z
+  updated_at: 2016-08-20 04:32:11.000000000 Z
+Clerk_97:
+  id: 97
+  email: sasdada@test.com
+  admin: false
+  encrypted_password: 32f966b5ea6c4c3aa9ae4e949c4a4756226c88e4141cb4e7c99ed28cd844204feaf943060a7d148942b6a5b8d2ddeda5c0d583a49c1e37f79b8fdb9ca7e6c792
+  password_salt: "$2a$10$KilYNz2jWWMRnmCmueP/tu"
+  address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
+  created_at: 2016-08-22 14:28:52.000000000 Z
+  updated_at: 2016-08-22 14:28:52.000000000 Z
+Clerk_98:
+  id: 98
+  email: mt.pikkarainen@gmail.com
+  admin: false
+  encrypted_password: b1a3bf7c212c00e76fadfec18269346b0f608b818c477458eb61ab6e0fa5182c7348b8e2e8b750a7c2eda62e10f789999d29a890f2c571b20bf89ae25680b9f0
+  password_salt: "$2a$10$PBoqMQrXZavC/0dhn33UlO"
+  address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
+  created_at: 2016-08-26 13:45:37.000000000 Z
+  updated_at: 2016-08-26 13:45:37.000000000 Z
+Clerk_99:
+  id: 99
+  email: ritva.vainio2013.rv@gmail.com
+  admin: false
+  encrypted_password: d9c31dca811b37c5f6a7ee7fddcdebec6cc6c1b6297e571c2f653099a695e64c5e9fd02475e99a20a7a2a23fa3c86ae59fc5af6f9f10815db3e30dff99da2709
+  password_salt: "$2a$10$TdU/wyiVrGcVCHgs09J73O"
+  address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
+  created_at: 2016-09-04 17:02:01.000000000 Z
+  updated_at: 2016-09-04 17:02:01.000000000 Z
+Clerk_100:
+  id: 100
+  email: kukkamaklin@gmail.com
+  admin: false
+  encrypted_password: fde9a9b2bdcd910fc902738c63a0de00eb2ab3acff60f479e8295b31bbd3f17c84643073764c50408f7c3f960a181790f0d3fe57932b8707f38dcc4736949611
+  password_salt: "$2a$10$QBD2kluajS4a4H89hBMiq."
+  address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
+  created_at: 2016-09-12 09:18:03.000000000 Z
+  updated_at: 2016-09-12 09:18:03.000000000 Z
+Clerk_101:
+  id: 101
+  email: sari.kuosmanen@kukkakauppakanerva.fi
+  admin: false
+  encrypted_password: d0a78746725b1882258f61f368a61f99c9fa27be6f65f3387651fd2da305c0e6a19865922d6a90065477930c43b5883938ead1fe103a156d2d7a6aa793729b39
+  password_salt: "$2a$10$vpxLBcEB5SLAfjTVh8Hvte"
+  address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
+  created_at: 2016-09-12 12:33:16.000000000 Z
+  updated_at: 2016-09-12 12:33:16.000000000 Z
+Clerk_102:
+  id: 102
+  email: rantakukka@netikka.fi
+  admin: false
+  encrypted_password: cb6e2bfef2f618bc108dacf683623710accdb2e9dd042275e32aa31c9feef71c0921fc0563438e691b9838ab8960ca1e74821526ca340b38e2ad555ac286cfa0
+  password_salt: "$2a$10$AxAIyuL2KD/lU1F1oLX30e"
+  address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
+  created_at: 2016-09-13 12:45:12.000000000 Z
+  updated_at: 2016-09-13 12:45:12.000000000 Z
+Clerk_103:
+  id: 103
+  email: anni.nakkalajarvi@gmail.com
+  admin: false
+  encrypted_password: f31caa3262640413f46de738b166bbb89ec2c553252e0898bc2d6502e89d6435ded7b2c6affa9f4e091522388a04bb7f766144aa8c9bc887cdc95e43ccf9359e
+  password_salt: "$2a$10$WUdaT/vmf4fiDiFlnG1SVO"
+  address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
+  created_at: 2016-09-18 11:24:28.000000000 Z
+  updated_at: 2016-09-18 11:24:28.000000000 Z
+Clerk_104:
+  id: 104
+  email: henkka123@windowslive.com
+  admin: false
+  encrypted_password: f75c415f6195a0ea989e4e448fe5b3ce7ed2606087b8f343c98b21b7cbd38207a8565dde763c27b8674c11efb26e8e3968a1e70f5c4dde1dfcb6df3f5ba03eb1
+  password_salt: "$2a$10$JpOBQoPWus/Uz0j6Q9LmEO"
+  address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
+  created_at: 2016-09-23 18:24:28.000000000 Z
+  updated_at: 2016-09-23 18:24:28.000000000 Z

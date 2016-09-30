@@ -3,26 +3,26 @@ Supplier_1:
   id: 1
   supplier_name: D&B
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2014-01-28 21:15:57.241330000 Z
-  updated_at: 2014-01-28 21:15:57.241330000 Z
+  created_at: 2014-01-28 21:15:57.000000000 Z
+  updated_at: 2014-01-28 21:15:57.000000000 Z
 Supplier_2:
   id: 2
   supplier_name: Farfalla
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2014-01-28 21:15:57.280990000 Z
-  updated_at: 2014-01-28 21:15:57.280990000 Z
+  created_at: 2014-01-28 21:15:57.000000000 Z
+  updated_at: 2014-01-28 21:15:57.000000000 Z
 Supplier_3:
   id: 3
   supplier_name: Sybra
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2014-01-28 21:15:57.459440000 Z
-  updated_at: 2014-01-28 21:15:57.459440000 Z
+  created_at: 2014-01-28 21:15:57.000000000 Z
+  updated_at: 2014-01-28 21:15:57.000000000 Z
 Supplier_4:
   id: 4
   supplier_name: Goodwill
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2014-01-28 21:15:57.609804000 Z
-  updated_at: 2014-01-28 21:15:57.609804000 Z
+  created_at: 2014-01-28 21:15:57.000000000 Z
+  updated_at: 2014-01-28 21:15:57.000000000 Z
 Supplier_5:
   id: 5
   supplier_name: Jameson&Tailor
@@ -31,248 +31,248 @@ Supplier_5:
     street: ''
     city: ''
     phone: ''
-  created_at: 2014-01-28 21:15:57.671785000 Z
-  updated_at: 2014-11-04 20:59:43.550300000 Z
+  created_at: 2014-01-28 21:15:57.000000000 Z
+  updated_at: 2014-11-04 20:59:43.000000000 Z
 Supplier_6:
   id: 6
   supplier_name: Himalaya
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2014-01-28 21:15:58.243113000 Z
-  updated_at: 2014-01-28 21:15:58.243113000 Z
+  created_at: 2014-01-28 21:15:58.000000000 Z
+  updated_at: 2014-01-28 21:15:58.000000000 Z
 Supplier_7:
   id: 8
   supplier_name: AlbertL
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2014-01-28 21:15:58.572945000 Z
-  updated_at: 2014-01-28 21:15:58.572945000 Z
+  created_at: 2014-01-28 21:15:58.000000000 Z
+  updated_at: 2014-01-28 21:15:58.000000000 Z
 Supplier_8:
   id: 10
   supplier_name: Bell Arte
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2014-01-28 21:15:58.775483000 Z
-  updated_at: 2014-01-28 21:15:58.775483000 Z
+  created_at: 2014-01-28 21:15:58.000000000 Z
+  updated_at: 2014-01-28 21:15:58.000000000 Z
 Supplier_9:
   id: 11
   supplier_name: YamYam
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2014-01-28 21:15:58.969236000 Z
-  updated_at: 2014-01-28 21:15:58.969236000 Z
+  created_at: 2014-01-28 21:15:58.000000000 Z
+  updated_at: 2014-01-28 21:15:58.000000000 Z
 Supplier_10:
   id: 12
   supplier_name: AnRa
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2014-01-28 21:15:58.988037000 Z
-  updated_at: 2014-01-28 21:15:58.988037000 Z
+  created_at: 2014-01-28 21:15:58.000000000 Z
+  updated_at: 2014-01-28 21:15:58.000000000 Z
 Supplier_11:
   id: 14
   supplier_name: Arco
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2014-01-28 21:15:59.261576000 Z
-  updated_at: 2014-01-28 21:15:59.261576000 Z
+  created_at: 2014-01-28 21:15:59.000000000 Z
+  updated_at: 2014-01-28 21:15:59.000000000 Z
 Supplier_12:
   id: 15
   supplier_name: Darach
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2014-01-28 21:15:59.463730000 Z
-  updated_at: 2014-01-28 21:15:59.463730000 Z
+  created_at: 2014-01-28 21:15:59.000000000 Z
+  updated_at: 2014-01-28 21:15:59.000000000 Z
 Supplier_13:
   id: 16
   supplier_name: Feuer & Glas
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2014-01-28 21:16:00.039623000 Z
-  updated_at: 2014-01-28 21:16:00.039623000 Z
+  created_at: 2014-01-28 21:16:00.000000000 Z
+  updated_at: 2014-01-28 21:16:00.000000000 Z
 Supplier_14:
   id: 17
   supplier_name: Azalia Moda
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2014-01-28 21:16:00.173415000 Z
-  updated_at: 2014-01-28 21:16:00.173415000 Z
+  created_at: 2014-01-28 21:16:00.000000000 Z
+  updated_at: 2014-01-28 21:16:00.000000000 Z
 Supplier_15:
   id: 18
   supplier_name: Khaosan
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2014-01-28 21:16:00.226320000 Z
-  updated_at: 2014-01-28 21:16:00.226320000 Z
+  created_at: 2014-01-28 21:16:00.000000000 Z
+  updated_at: 2014-01-28 21:16:00.000000000 Z
 Supplier_16:
   id: 20
   supplier_name: Belly Moden
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2014-01-28 21:16:00.521921000 Z
-  updated_at: 2014-01-28 21:16:00.521921000 Z
+  created_at: 2014-01-28 21:16:00.000000000 Z
+  updated_at: 2014-01-28 21:16:00.000000000 Z
 Supplier_17:
   id: 21
   supplier_name: PE Florence
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2014-01-28 21:16:00.690513000 Z
-  updated_at: 2014-01-28 21:16:00.690513000 Z
+  created_at: 2014-01-28 21:16:00.000000000 Z
+  updated_at: 2014-01-28 21:16:00.000000000 Z
 Supplier_18:
   id: 22
   supplier_name: Chatochak
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2014-01-28 21:16:01.158844000 Z
-  updated_at: 2014-01-28 21:16:01.158844000 Z
+  created_at: 2014-01-28 21:16:01.000000000 Z
+  updated_at: 2014-01-28 21:16:01.000000000 Z
 Supplier_19:
   id: 23
   supplier_name: Frosch & Rabe
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2014-01-28 21:16:01.378903000 Z
-  updated_at: 2014-01-28 21:16:01.378903000 Z
+  created_at: 2014-01-28 21:16:01.000000000 Z
+  updated_at: 2014-01-28 21:16:01.000000000 Z
 Supplier_20:
   id: 25
   supplier_name: NoName
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2014-01-28 21:16:01.889551000 Z
-  updated_at: 2014-01-28 21:16:01.889551000 Z
+  created_at: 2014-01-28 21:16:01.000000000 Z
+  updated_at: 2014-01-28 21:16:01.000000000 Z
 Supplier_21:
   id: 27
   supplier_name: Hata
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2014-01-28 21:16:02.881223000 Z
-  updated_at: 2014-01-28 21:16:02.881223000 Z
+  created_at: 2014-01-28 21:16:02.000000000 Z
+  updated_at: 2014-01-28 21:16:02.000000000 Z
 Supplier_22:
   id: 32
   supplier_name: Loqi
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2014-01-28 21:16:03.427532000 Z
-  updated_at: 2014-01-28 21:16:03.427532000 Z
+  created_at: 2014-01-28 21:16:03.000000000 Z
+  updated_at: 2014-01-28 21:16:03.000000000 Z
 Supplier_23:
   id: 33
   supplier_name: Putumayo
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2014-01-28 21:16:03.982017000 Z
-  updated_at: 2014-01-28 21:16:03.982017000 Z
+  created_at: 2014-01-28 21:16:03.000000000 Z
+  updated_at: 2014-01-28 21:16:03.000000000 Z
 Supplier_24:
   id: 35
   supplier_name: Kaszer
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2014-01-28 21:16:04.859249000 Z
-  updated_at: 2014-01-28 21:16:04.859249000 Z
+  created_at: 2014-01-28 21:16:04.000000000 Z
+  updated_at: 2014-01-28 21:16:04.000000000 Z
 Supplier_25:
   id: 36
   supplier_name: KasoKana
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2014-01-28 21:16:05.184496000 Z
-  updated_at: 2014-01-28 21:16:05.184496000 Z
+  created_at: 2014-01-28 21:16:05.000000000 Z
+  updated_at: 2014-01-28 21:16:05.000000000 Z
 Supplier_26:
   id: 37
   supplier_name: Legian
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2014-01-28 21:16:06.300774000 Z
-  updated_at: 2014-01-28 21:16:06.300774000 Z
+  created_at: 2014-01-28 21:16:06.000000000 Z
+  updated_at: 2014-01-28 21:16:06.000000000 Z
 Supplier_27:
   id: 38
   supplier_name: Rainbow Silver
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2014-01-28 21:16:07.863958000 Z
-  updated_at: 2014-01-28 21:16:07.863958000 Z
+  created_at: 2014-01-28 21:16:07.000000000 Z
+  updated_at: 2014-01-28 21:16:07.000000000 Z
 Supplier_28:
   id: 39
   supplier_name: Intia
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2014-01-28 21:16:08.331674000 Z
-  updated_at: 2014-01-28 21:16:08.331674000 Z
+  created_at: 2014-01-28 21:16:08.000000000 Z
+  updated_at: 2014-01-28 21:16:08.000000000 Z
 Supplier_29:
   id: 40
   supplier_name: Suka Suka
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2014-01-28 21:16:08.908621000 Z
-  updated_at: 2014-01-28 21:16:08.908621000 Z
+  created_at: 2014-01-28 21:16:08.000000000 Z
+  updated_at: 2014-01-28 21:16:08.000000000 Z
 Supplier_30:
   id: 41
   supplier_name: Extradesign Frank Mayer
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2014-01-28 21:16:09.165503000 Z
-  updated_at: 2014-01-28 21:16:09.165503000 Z
+  created_at: 2014-01-28 21:16:09.000000000 Z
+  updated_at: 2014-01-28 21:16:09.000000000 Z
 Supplier_31:
   id: 42
   supplier_name: Lovely
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2014-01-28 21:16:09.183316000 Z
-  updated_at: 2014-01-28 21:16:09.183316000 Z
+  created_at: 2014-01-28 21:16:09.000000000 Z
+  updated_at: 2014-01-28 21:16:09.000000000 Z
 Supplier_32:
   id: 43
   supplier_name: Lollia
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2014-01-28 21:16:10.474547000 Z
-  updated_at: 2014-01-28 21:16:10.474547000 Z
+  created_at: 2014-01-28 21:16:10.000000000 Z
+  updated_at: 2014-01-28 21:16:10.000000000 Z
 Supplier_33:
   id: 44
   supplier_name: Klippan
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2014-01-28 21:16:10.506529000 Z
-  updated_at: 2014-01-28 21:16:10.506529000 Z
+  created_at: 2014-01-28 21:16:10.000000000 Z
+  updated_at: 2014-01-28 21:16:10.000000000 Z
 Supplier_34:
   id: 45
   supplier_name: Envirosax
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2014-01-28 21:16:11.669750000 Z
-  updated_at: 2014-01-28 21:16:11.669750000 Z
+  created_at: 2014-01-28 21:16:11.000000000 Z
+  updated_at: 2014-01-28 21:16:11.000000000 Z
 Supplier_35:
   id: 46
   supplier_name: Boltze
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2014-01-28 21:16:13.249972000 Z
-  updated_at: 2014-01-28 21:16:13.249972000 Z
+  created_at: 2014-01-28 21:16:13.000000000 Z
+  updated_at: 2014-01-28 21:16:13.000000000 Z
 Supplier_36:
   id: 47
   supplier_name: NatureScent
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2014-01-28 21:16:14.647809000 Z
-  updated_at: 2014-01-28 21:16:14.647809000 Z
+  created_at: 2014-01-28 21:16:14.000000000 Z
+  updated_at: 2014-01-28 21:16:14.000000000 Z
 Supplier_37:
   id: 48
   supplier_name: Ipuro
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2014-01-28 21:16:18.324526000 Z
-  updated_at: 2014-01-28 21:16:18.324526000 Z
+  created_at: 2014-01-28 21:16:18.000000000 Z
+  updated_at: 2014-01-28 21:16:18.000000000 Z
 Supplier_38:
   id: 49
   supplier_name: Treshna Bali
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2014-01-28 21:16:19.802273000 Z
-  updated_at: 2014-01-28 21:16:19.802273000 Z
+  created_at: 2014-01-28 21:16:19.000000000 Z
+  updated_at: 2014-01-28 21:16:19.000000000 Z
 Supplier_39:
   id: 50
   supplier_name: Qubu Mirror
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2014-01-28 21:16:22.306955000 Z
-  updated_at: 2014-01-28 21:16:22.306955000 Z
+  created_at: 2014-01-28 21:16:22.000000000 Z
+  updated_at: 2014-01-28 21:16:22.000000000 Z
 Supplier_40:
   id: 51
   supplier_name: Tegallalang
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2014-01-28 21:16:24.345785000 Z
-  updated_at: 2014-01-28 21:16:24.345785000 Z
+  created_at: 2014-01-28 21:16:24.000000000 Z
+  updated_at: 2014-01-28 21:16:24.000000000 Z
 Supplier_41:
   id: 52
   supplier_name: Seyko
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2014-01-28 21:16:24.955805000 Z
-  updated_at: 2014-01-28 21:16:24.955805000 Z
+  created_at: 2014-01-28 21:16:24.000000000 Z
+  updated_at: 2014-01-28 21:16:24.000000000 Z
 Supplier_42:
   id: 53
   supplier_name: Pajoma
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2014-01-28 21:16:25.922802000 Z
-  updated_at: 2014-01-28 21:16:25.922802000 Z
+  created_at: 2014-01-28 21:16:25.000000000 Z
+  updated_at: 2014-01-28 21:16:25.000000000 Z
 Supplier_43:
   id: 54
   supplier_name: Fairy
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2014-01-28 21:16:38.034767000 Z
-  updated_at: 2014-01-28 21:16:38.034767000 Z
+  created_at: 2014-01-28 21:16:38.000000000 Z
+  updated_at: 2014-01-28 21:16:38.000000000 Z
 Supplier_44:
   id: 55
   supplier_name: Orient Import
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2014-01-28 21:16:45.803286000 Z
-  updated_at: 2014-01-28 21:16:45.803286000 Z
+  created_at: 2014-01-28 21:16:45.000000000 Z
+  updated_at: 2014-01-28 21:16:45.000000000 Z
 Supplier_45:
   id: 56
   supplier_name: Cor Mulder
   address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess {}
-  created_at: 2014-05-26 16:03:13.407318000 Z
-  updated_at: 2014-05-26 16:03:13.415770000 Z
+  created_at: 2014-05-26 16:03:13.000000000 Z
+  updated_at: 2014-05-26 16:03:13.000000000 Z
 Supplier_46:
   id: 57
   supplier_name: Papaya
@@ -281,8 +281,8 @@ Supplier_46:
     street: ''
     city: ''
     phone: ''
-  created_at: 2015-10-05 12:52:57.172339000 Z
-  updated_at: 2015-10-05 12:52:57.430332000 Z
+  created_at: 2015-10-05 12:52:57.000000000 Z
+  updated_at: 2015-10-05 12:52:57.000000000 Z
 Supplier_47:
   id: 58
   supplier_name: Eusamex
@@ -291,8 +291,8 @@ Supplier_47:
     street: ''
     city: ''
     phone: ''
-  created_at: 2015-11-30 13:52:42.939857000 Z
-  updated_at: 2015-11-30 13:52:43.115696000 Z
+  created_at: 2015-11-30 13:52:42.000000000 Z
+  updated_at: 2015-11-30 13:52:43.000000000 Z
 Supplier_48:
   id: 59
   supplier_name: Pomme-Pidou
@@ -301,5 +301,15 @@ Supplier_48:
     street: ''
     city: ''
     phone: ''
-  created_at: 2015-11-30 16:02:10.919576000 Z
-  updated_at: 2015-11-30 16:02:11.074649000 Z
+  created_at: 2015-11-30 16:02:10.000000000 Z
+  updated_at: 2015-11-30 16:02:11.000000000 Z
+Supplier_49:
+  id: 61
+  supplier_name: Kerzenfarm
+  address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+    name: ''
+    street: ''
+    city: ''
+    phone: ''
+  created_at: 2015-12-16 15:36:58.000000000 Z
+  updated_at: 2015-12-16 15:36:58.000000000 Z
