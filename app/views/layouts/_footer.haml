@@ -3,13 +3,13 @@
   %hr
   .col-sm-4.footer_left
     .highlight=link_to t(:our_shop) , "/page/liikkeemme"
-    %br
     .highlight=link_to t(:terms).capitalize , "/page/toimitusehdot"
 
     %a{href: "https://www.facebook.com/Auringosta.Itaan.Kuusta.Lanteen", :target => "blank"}
-      %h4.highlight Like us on Facebook!
-
-      =image_tag "kauppa/facebook.gif"
+      %h4.highlight.img-bottom
+        =image_tag "kauppa/facebook.gif"
+        \ 
+        Like us on Facebook!
   .col-sm-4.footer_center
     %h4= t(:designed_by)
     %b Ruby Design  
