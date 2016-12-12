@@ -16,6 +16,11 @@ module ShopHelper
     prods.sample(get)
   end
 
+  def shipping_methods
+     methods = OfficeClerk::ShippingMethod.all.values.dup
+     methods.delete_if{|m| m.type == :pickup }
+     methods
+  end
   def products_for(group)
     group.shop_products
   end

@@ -35,7 +35,7 @@ class ShopController < ApplicationController
     end
     if(request.get?)
       @order.email = current_clerk.email if current_clerk
-      @order.shipment_type = "pickup" # price is 0 automatically
+      @order.shipment_type = "post" # price is 0 automatically
     else
       order_ps = params.require(:order).permit( :email,:name , :street , :city , :phone , :shipment_type )
       @order.assign_attributes(order_ps)
