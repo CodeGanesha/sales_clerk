@@ -6,7 +6,7 @@ config:
       price_table: '5.5 6.5 7.5 10 11 15'
       name: "Postipaketti, nouto postikonttorista"
       class: "OfficeClerk::Post"
-      max_price: 55
+      max_price: 49
     kotiinkuljetus:
       weight_table: '1 5 10 15 30 40'
       price_table: '9.5 10.5 11.5 14 15 19'
@@ -18,11 +18,11 @@ config:
       price_table: '3 4.5 6'
       name: "Maksikirje 2.lk"
       class: "OfficeClerk::Post"
-      max_price: 55
+      max_price: 49
     pickup:
       class: "OfficeClerk::Pickup"
       name: Nouto myymälästämme
   defaults:
     tax: 24.0
-    free_shipping: 55
+    free_shipping: 49
   print_styles: "receipt invoice"
