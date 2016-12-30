@@ -31,5 +31,5 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-  $(".alert-shop").delay(5000).fadeOut(400);
+  $(".alert-shop").delay(5000).fadeOut(4000000);
 });

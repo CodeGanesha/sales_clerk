@@ -64,6 +64,27 @@
                     %span{"aria-hidden" => "true"} ×
                     %span.sr-only= t(:close)
                   = raw message
+
+                  .product-container
+                    .col-md-8.col-sm-8.col-xs-8
+                      .alert-cart
+                        %h4
+                          Viimeksi lisätty tuote:
+                          Feel Great Men Deo
+                        %p
+                          Ostoskorissa 4 tuotetta
+                          %br
+                          Summa yht 44€
+                          %br
+                          5€ jäljellä ilmaisiin toimituskuluihin
+                    .col-md-4.col-sm-4.col-xs-4
+                      .square-image
+                        =image_tag "/images/5314/list/men_deo.jpg?1390944143"
+                  %button.btn.btn-primary{:type => :submit}
+                    Siirry ostoskoriin
+                  %button.btn.btn-primary{:type => :submit}
+                    Jatka ostoksia
+
       .row
         .col-md-12
           = yield
