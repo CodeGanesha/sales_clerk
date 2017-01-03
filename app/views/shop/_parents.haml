@@ -10,7 +10,11 @@
           =image_tag  "kauppa/aurinko.png"
           = t(:to_hompage)
 
-
+    %br
+    %b
+      FARFALLA - Huippusarja maailmalta, nyt myös Suomessa!
+      %br
+      Sveitsiläistä laadukasta luomukosmetiikkaa: 100% luonnollisista ainesosista, joista suuri osa jopa yli 95% luomua (NaTrue***)
     - parents(group).each do | group|
       .group-wrapper.side
         = link_to shop_group_path(:link => group.link) do
