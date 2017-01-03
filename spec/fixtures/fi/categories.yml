@@ -1,9 +1,11 @@
-Category_10001:
-  id: 51
-  online: true
+---
+Category_1:
+  id: 1
+  online: false
   name: Luomukosmetiikka
   description: "**Sveitsiläistä laadukasta luomukosmetiikkaa:<br> 100% luonnollisista
     ainesosista, joista suuri osa jopa yli 95% luomua**\r\n(NaTrue***)\r\n \r\n\r\n\r\n"
+  summary: "**FARFALLA \r\n- Huippusarja maailmalta, nyt myös Suomessa!**\r\n"
   position: 1
   link: farfalla
   main_picture_file_name: menu-luomu.jpg
@@ -15,27 +17,27 @@ Category_10001:
   extra_picture_file_size: 69272
   extra_picture_updated_at: 2014-12-05 19:11:52.000000000 Z
   created_at: 2014-01-28 21:09:18.000000000 Z
-  updated_at: 2016-03-12 13:29:18.000000000 Z
-  summary: "**FARFALLA \r\n- Huippusarja maailmalta, nyt myös Suomessa!**\r\n"
-Category_10002:
-  id: 57
-  Category_1000id: 89
+  updated_at: 2017-01-02 19:43:43.000000000 Z
+Category_2:
+  id: 7
+  category_id: 39
   online: false
   name: Korut
   description: Vielä enemmän ihanuuksia ja yksittäiskappaleita liikkeessämme Helsingin
     Viiskulmassa.
+  summary: "**Koruja kaikkiin tilaisuuksiin!** "
   position: 1
   link: korut
   created_at: 2014-01-28 21:09:18.000000000 Z
   updated_at: 2014-11-24 20:50:52.000000000 Z
-  summary: "**Koruja kaikkiin tilaisuuksiin!** "
-Category_10003:
-  id: 63
-  online: true
+Category_3:
+  id: 13
+  online: false
   name: Gourmet
   description: Valikoima herkullisia tuotteita ihastuttavissa, ekologisissa pakkauksissa.
     Huolella valittu lajitelma teetä, herkkudippejä, juomajauheita, maustesekoituksia,
     makoisia jälkiruokia. Tuotteet eivät sisällä lisäaineita tai arominvahventeita.
+  summary: "**Herkut ja laadukkaat teet lahjaksi tai omaan keittiöön**"
   position: 2
   link: gourmet
   main_picture_file_name: menu-gourmet3.jpg
@@ -47,57 +49,57 @@ Category_10003:
   extra_picture_file_size: 1100
   extra_picture_updated_at: 2014-12-06 06:17:29.000000000 Z
   created_at: 2014-01-28 21:09:18.000000000 Z
-  updated_at: 2014-12-06 06:17:29.000000000 Z
-  summary: "**Herkut ja laadukkaat teet lahjaksi tai omaan keittiöön**"
-Category_10004:
-  id: 64
-  Category_1000id: 89
+  updated_at: 2017-01-02 19:20:00.000000000 Z
+Category_4:
+  id: 14
+  category_id: 39
   online: false
   name: Valaisimet
   description: 'Yksilöllisiä ja kauniita valaisimia tuomaan tunnelmaa kotiisi. '
+  summary: " **Tyylikkäitä valaisimia kotiisi!**"
   position: 1
   link: valaisimet
   created_at: 2014-01-28 21:09:18.000000000 Z
   updated_at: 2015-02-21 12:37:38.000000000 Z
-  summary: " **Tyylikkäitä valaisimia kotiisi!**"
-Category_10005:
-  id: 65
-  Category_1000id: 77
+Category_5:
+  id: 15
+  category_id: 27
   online: false
   name: Sisustustuotteet
+  summary: ''
   position: 1
   link: sisustustuotteet
   created_at: 2014-01-28 21:09:18.000000000 Z
   updated_at: 2014-01-28 21:09:18.000000000 Z
-  summary: ''
-Category_10006:
-  id: 70
-  Category_1000id: 77
+Category_6:
+  id: 20
+  category_id: 27
   online: false
   name: Laukut
+  summary: ''
   position: 1
   link: laukut
   created_at: 2014-01-28 21:09:18.000000000 Z
   updated_at: 2014-01-28 21:09:18.000000000 Z
-  summary: ''
-Category_10007:
-  id: 77
+Category_7:
+  id: 27
   online: false
   name: Muut
   description: ''
+  summary: ''
   position: 100
   link: muut
   created_at: 2014-01-28 21:09:18.000000000 Z
   updated_at: 2014-02-09 20:22:28.000000000 Z
-  summary: ''
-Category_10008:
-  id: 80
-  Category_1000id: 51
+Category_8:
+  id: 30
   online: true
   name: Hiustenhoito
   description: "Shampoot, hoitotuotteet ja toimivat muotoilutuotteet kaikille eri
     hiustyypeille. Farfallaa arvostavat sekä asiakkaat että alan ammattilaiset: sarja
     on jo kymmenien ekokampaajien käytössä ympäri Suomen. \r\n\r\n\r\n\r\n\r\n"
+  summary: "**Farfallan hiustenhoitosarja on yksi kattavimmista 100% luonnollisista
+    hiustenhoitosarjoista markkinoilla.**"
   position: 2
   link: hiustenhoito
   main_picture_file_name: menu-hius-uus.jpg
@@ -109,18 +111,17 @@ Category_10008:
   extra_picture_file_size: 56799
   extra_picture_updated_at: 2014-12-15 20:28:24.000000000 Z
   created_at: 2014-01-28 21:09:18.000000000 Z
-  updated_at: 2016-03-11 16:11:07.000000000 Z
-  summary: "**Farfallan hiustenhoitosarja on yksi kattavimmista 100% luonnollisista
-    hiustenhoitosarjoista markkinoilla.**"
-Category_10009:
-  id: 81
-  Category_1000id: 51
+  updated_at: 2017-01-02 19:21:11.000000000 Z
+Category_9:
+  id: 31
   online: true
   name: Vartalonhoito
   description: "\r\n**daily pleasure**<br>- sitruksenraikas ja mieto<br>**intense
     frangipani**<br>- ravitseva ja lempeän aistillinen<br> \r\n**silhouette miracle**<br>\r\n-
     energisoiva ja kiinteyttävä<br> **pure sensitive**<br>\r\n- täysin tuoksuton,
     herkälle iholle<br>   "
+  summary: "**Toimivat luomudeodorantit, ravitsevat kosteusvoiteet, hurmaavat kauneusöljyt,
+    ihastuttavat suihkutuotteet:<br>** "
   position: 3
   link: vartalonhoito
   main_picture_file_name: menu-vartalo-uus.jpg
@@ -132,16 +133,14 @@ Category_10009:
   extra_picture_file_size: 56799
   extra_picture_updated_at: 2014-12-15 20:28:44.000000000 Z
   created_at: 2014-01-28 21:09:18.000000000 Z
-  updated_at: 2016-03-12 13:34:56.000000000 Z
-  summary: "**Toimivat luomudeodorantit, ravitsevat kosteusvoiteet, hurmaavat kauneusöljyt,
-    ihastuttavat suihkutuotteet:<br>** "
-Category_100010:
-  id: 82
-  Category_1000id: 51
+  updated_at: 2017-01-02 19:21:47.000000000 Z
+Category_10:
+  id: 32
   online: true
   name: Kasvojenhoito
   description: "Farfallan huipputuotteita käytetään spa:issa ja hoitoloissa, jotka
     on valittu maailman parhaiden joukkoon. <em><br>\r\n"
+  summary: "**Täydellinen kasvojenhoitosarja <br>- yli 95%  luomua (NaTrue)** "
   position: 1
   link: Kasvojenhoito
   main_picture_file_name: menu-kasvo-uus.jpg
@@ -153,11 +152,9 @@ Category_100010:
   extra_picture_file_size: 56799
   extra_picture_updated_at: 2014-12-05 19:15:36.000000000 Z
   created_at: 2014-01-28 21:09:18.000000000 Z
-  updated_at: 2016-03-11 17:12:34.000000000 Z
-  summary: "**Täydellinen kasvojenhoitosarja <br>- yli 95%  luomua (NaTrue)** "
-Category_100011:
-  id: 84
-  Category_1000id: 51
+  updated_at: 2017-01-02 19:21:00.000000000 Z
+Category_11:
+  id: 34
   online: true
   name: Luomuparfyymit
   description: Koska parfyymit on valmistettu korkealaatuisista sertifioiduista luomuainesosista,
@@ -165,6 +162,7 @@ Category_100011:
     Luonnollisen tuoksun huomaa ainoastaan henkilön välittömässä läheisyydessä. <br>Farfallan
     luomuparfyymeilla on NaTrue -sertifikaatti, ja luomuprosentti kaikista aineista
     on 98%.
+  summary: "**Farfallan upeat tuoksut nykynaiselle!** "
   position: 6
   link: luomu-parfyymit
   main_picture_file_name: menu-parfyymit-2.jpg
@@ -176,17 +174,18 @@ Category_100011:
   extra_picture_file_size: 56799
   extra_picture_updated_at: 2014-12-15 20:29:26.000000000 Z
   created_at: 2014-01-28 21:09:18.000000000 Z
-  updated_at: 2016-03-11 17:31:18.000000000 Z
-  summary: "**Farfallan upeat tuoksut nykynaiselle!** "
-Category_100012:
-  id: 85
-  Category_1000id: 123
+  updated_at: 2017-01-02 19:22:16.000000000 Z
+Category_12:
+  id: 35
+  category_id: 73
   online: true
   name: Luomu Aromasprayt ja Roll onit
   description: " Sprayta voi suihkauttaa suoraan iholle, kaulalle tai ranteisiin.
     Sitä voi myös suihkauttaa ilmaan ja virkistäytyä hengittämällä ihania tuoksuja.
     Kätevä pikku roll on kulkee helposti mukana ja voit sipaista sitä esim. ranteisiin
     tai kaulalle. Pidä aina käsilaukussa!"
+  summary: "**Mahtavia tuoksuja pienessä pullossa! Farfallan aromaterapeuttiset sprayt
+    ja -roll onit on suunniteltu avuksi joskus vaativan elämänmenon keskellä.**"
   position: 1
   link: aromasprayt
   main_picture_file_name: menu-aromat.jpg
@@ -199,17 +198,17 @@ Category_100012:
   extra_picture_updated_at: 2014-12-15 20:32:10.000000000 Z
   created_at: 2014-01-28 21:09:18.000000000 Z
   updated_at: 2016-09-09 06:55:34.000000000 Z
-  summary: "**Mahtavia tuoksuja pienessä pullossa! Farfallan aromaterapeuttiset sprayt
-    ja -roll onit on suunniteltu avuksi joskus vaativan elämänmenon keskellä.**"
-Category_100013:
-  id: 86
-  Category_1000id: 123
+Category_13:
+  id: 36
+  category_id: 73
   online: true
   name: Luomu Huonesprayt
   description: 'Spraypullosta on helppoa ja nopeaa suihkauttaa ihanaa ja luonnollista
     raikkautta. Yhdeksän tuoksua erilaisiin tilanteisiin: huoneilman ja ilmapiirin
     raikastamiseen, tunnelman kohottajaksi, rentoutumiseen, keskittymiskyvyn parantamiseen
     jne.<br>Ihastuttava huonespray on myös hyvä lahjaidea! '
+  summary: "**Farfallan luomulaatuiset huonesprayt sopivat käytettäväksi kotona, työpaikoilla,
+    kylpyhuoneissa, autossa, hoitotiloissa jne.**"
   position: 1
   link: luomu-huonesprayt
   main_picture_file_name: menu-huonespray.jpg
@@ -222,24 +221,24 @@ Category_100013:
   extra_picture_updated_at: 2014-12-15 20:32:36.000000000 Z
   created_at: 2014-01-28 21:09:18.000000000 Z
   updated_at: 2014-12-15 20:32:36.000000000 Z
-  summary: "**Farfallan luomulaatuiset huonesprayt sopivat käytettäväksi kotona, työpaikoilla,
-    kylpyhuoneissa, autossa, hoitotiloissa jne.**"
-Category_100014:
-  id: 88
-  Category_1000id: 82
+Category_14:
+  id: 38
+  category_id: 32
   online: false
   name: Aloe Shea
   description: ''
+  summary: ''
   position: 1
   link: aloe-shea
   created_at: 2014-01-28 21:09:18.000000000 Z
   updated_at: 2014-08-19 15:14:31.000000000 Z
-  summary: ''
-Category_100015:
-  id: 89
-  online: true
+Category_15:
+  id: 39
+  online: false
   name: Lahjat, sisustus ja korut
   description: ''
+  summary: "**Raikasta tyyliä sisustukseen, houkutuksia lahjoiksi, koruja kaikkiin
+    tilaisuuksiin: töihin, linnanjuhliin tai hippoihin!** "
   position: 4
   link: sisustus
   main_picture_file_name: menu-valaisin.jpg
@@ -251,15 +250,13 @@ Category_100015:
   extra_picture_file_size: 1100
   extra_picture_updated_at: 2014-12-06 06:21:00.000000000 Z
   created_at: 2014-01-28 21:09:18.000000000 Z
-  updated_at: 2014-12-06 06:21:00.000000000 Z
-  summary: "**Raikasta tyyliä sisustukseen, houkutuksia lahjoiksi, koruja kaikkiin
-    tilaisuuksiin: töihin, linnanjuhliin tai hippoihin!** "
-Category_100016:
-  id: 90
-  Category_1000id: 51
+  updated_at: 2017-01-02 19:20:08.000000000 Z
+Category_16:
+  id: 40
   online: true
   name: Miehille
   description: Farfallan luomutuotteet miehille päivittäiseen puhtauteen ja hoitoon.
+  summary: "**Selkeä ja käytännöllinen, raikas ja tehokas - FEEL GREAT!**"
   position: 4
   link: miehille
   main_picture_file_name: menu-men-uus.jpg
@@ -271,26 +268,26 @@ Category_100016:
   extra_picture_file_size: 56799
   extra_picture_updated_at: 2014-12-15 20:28:58.000000000 Z
   created_at: 2014-01-28 21:09:18.000000000 Z
-  updated_at: 2016-03-11 17:18:39.000000000 Z
-  summary: "**Selkeä ja käytännöllinen, raikas ja tehokas - FEEL GREAT!**"
-Category_100017:
-  id: 91
-  Category_1000id: 125
+  updated_at: 2017-01-02 19:21:56.000000000 Z
+Category_17:
+  id: 41
+  category_id: 75
   online: false
   name: Vaatteet
   description: ''
+  summary: ''
   position: 1
   link: vaatteet
   created_at: 2014-01-28 21:09:18.000000000 Z
   updated_at: 2014-02-09 19:42:03.000000000 Z
-  summary: ''
-Category_100018:
-  id: 92
-  Category_1000id: 51
+Category_18:
+  id: 42
   online: true
   name: Öljyt
   description: Tuoksuttomat perusöljyt, miedosti tuoksuvat ihoöljyt, upeat  jalokiviöljyt
     - kaikki luomua! (NaTrue***)
+  summary: "**Farfallan hienot öljyt ovat laadultaan maailman huippua. Tutustu monipuoliseen
+    valikoimaamme!**"
   position: 5
   link: oljyt
   main_picture_file_name: menu-oljy-inka.jpg
@@ -302,92 +299,91 @@ Category_100018:
   extra_picture_file_size: 56799
   extra_picture_updated_at: 2014-12-15 20:29:13.000000000 Z
   created_at: 2014-01-28 21:09:18.000000000 Z
-  updated_at: 2016-03-12 13:42:44.000000000 Z
-  summary: "**Farfallan hienot öljyt ovat laadultaan maailman huippua. Tutustu monipuoliseen
-    valikoimaamme!**"
-Category_100019:
-  id: 93
-  Category_1000id: 77
+  updated_at: 2017-01-02 19:22:04.000000000 Z
+Category_19:
+  id: 43
+  category_id: 27
   online: false
   name: Muu Kosmetiikka
   description: ''
+  summary: ''
   position: 1
   link: muu_kosmetiikka
   created_at: 2014-01-28 21:15:57.000000000 Z
   updated_at: 2014-08-19 15:53:38.000000000 Z
-  summary: ''
-Category_100020:
-  id: 94
-  Category_1000id: 123
+Category_20:
+  id: 44
+  category_id: 73
   online: false
   name: Suitsukkeet
   description: ''
+  summary: ''
   position: 1
   link: suitsukkeet
   created_at: 2014-01-28 21:15:57.000000000 Z
   updated_at: 2014-08-23 20:23:32.000000000 Z
-  summary: ''
-Category_100021:
-  id: 95
-  Category_1000id: 125
+Category_21:
+  id: 45
+  category_id: 75
   online: false
   name: Tunika
   description: ''
+  summary: ''
   position: 1
   link: tunika
   created_at: 2014-01-28 21:15:57.000000000 Z
   updated_at: 2014-08-23 18:28:39.000000000 Z
-  summary: ''
-Category_100022:
-  id: 96
-  Category_1000id: 77
+Category_22:
+  id: 46
+  category_id: 27
   online: false
   name: Sekalaista
   description: ''
+  summary: ''
   position: 1
   link: sekalaista
   created_at: 2014-01-28 21:15:57.000000000 Z
   updated_at: 2014-02-09 19:45:00.000000000 Z
-  summary: ''
-Category_100023:
-  id: 97
-  Category_1000id: 103
+Category_23:
+  id: 47
+  category_id: 53
   online: false
   name: Keittiöesineet
   description: ''
+  summary: ''
   position: 1
   link: keittiöesineet
   created_at: 2014-01-28 21:15:57.000000000 Z
   updated_at: 2014-02-09 19:53:11.000000000 Z
-  summary: ''
-Category_100024:
-  id: 98
-  Category_1000id: 103
+Category_24:
+  id: 48
+  category_id: 53
   online: false
   name: Koristeesineet
   description: ''
+  summary: ''
   position: 1
   link: koristeesineet
   created_at: 2014-01-28 21:15:57.000000000 Z
   updated_at: 2014-02-09 19:53:03.000000000 Z
-  summary: ''
-Category_100025:
-  id: 99
-  Category_1000id: 125
+Category_25:
+  id: 49
+  category_id: 75
   online: false
   name: Paidat ja puserot
   description: ''
+  summary: ''
   position: 1
   link: puserot
   created_at: 2014-01-28 21:15:58.000000000 Z
   updated_at: 2014-08-23 18:29:21.000000000 Z
-  summary: ''
-Category_100026:
-  id: 100
-  Category_1000id: 125
+Category_26:
+  id: 50
+  category_id: 75
   online: true
   name: Takit
   description: ''
+  summary: ''
   position: 1
   link: takit
   main_picture_file_name: takit2.jpg
@@ -400,166 +396,166 @@ Category_100026:
   extra_picture_updated_at: 2014-12-15 20:35:05.000000000 Z
   created_at: 2014-01-28 21:15:58.000000000 Z
   updated_at: 2014-12-15 20:35:06.000000000 Z
-  summary: ''
-Category_100027:
-  id: 101
-  Category_1000id: 125
+Category_27:
+  id: 51
+  category_id: 75
   online: false
   name: Huivit
   description: ''
+  summary: ''
   position: 1
   link: huivit
   created_at: 2014-01-28 21:15:58.000000000 Z
   updated_at: 2014-02-09 19:42:19.000000000 Z
-  summary: ''
-Category_100028:
-  id: 102
-  Category_1000id: 77
+Category_28:
+  id: 52
+  category_id: 27
   online: false
   name: ipuro
   description: ''
+  summary: ''
   position: 1
   link: ipuro
   created_at: 2014-01-28 21:15:59.000000000 Z
   updated_at: 2014-02-09 19:45:34.000000000 Z
-  summary: ''
-Category_100029:
-  id: 103
+Category_29:
+  id: 53
   online: false
   name: Esineet
   description: ''
+  summary: ''
   position: 100
   link: esineet
   created_at: 2014-01-28 21:15:59.000000000 Z
   updated_at: 2014-02-09 20:22:56.000000000 Z
-  summary: ''
-Category_100030:
-  id: 104
-  Category_1000id: 89
+Category_30:
+  id: 54
+  category_id: 39
   online: false
   name: Peilit
   description: "**Upeita peilejä yksilölliseen sisustamiseen.** "
+  summary: ''
   position: 1
   link: peilit
   created_at: 2014-01-28 21:16:00.000000000 Z
   updated_at: 2014-11-09 16:36:31.000000000 Z
-  summary: ''
-Category_100031:
-  id: 105
-  Category_1000id: 125
+Category_31:
+  id: 55
+  category_id: 75
   online: false
   name: Mekot
   description: ''
+  summary: ''
   position: 1
   link: mekot
   created_at: 2014-01-28 21:16:00.000000000 Z
   updated_at: 2014-08-23 19:57:54.000000000 Z
-  summary: ''
-Category_100032:
-  id: 106
-  Category_1000id: 77
+Category_32:
+  id: 56
+  category_id: 27
   online: false
   name: None
   description: ''
+  summary: ''
   position: 1
   link: none
   created_at: 2014-01-28 21:16:00.000000000 Z
   updated_at: 2014-02-09 19:45:28.000000000 Z
-  summary: ''
-Category_100033:
-  id: 107
-  Category_1000id: 125
+Category_33:
+  id: 57
+  category_id: 75
   online: false
   name: Hatut
   description: ''
+  summary: ''
   position: 1
   link: hatut
   created_at: 2014-01-28 21:16:01.000000000 Z
   updated_at: 2014-08-23 19:58:14.000000000 Z
-  summary: ''
-Category_100034:
-  id: 108
-  Category_1000id: 103
+Category_34:
+  id: 58
+  category_id: 53
   online: false
   name: Keittiötavarat
   description: ''
+  summary: ''
   position: 1
   link: keittiötavarat
   created_at: 2014-01-28 21:16:02.000000000 Z
   updated_at: 2014-02-09 19:54:06.000000000 Z
-  summary: ''
-Category_100035:
-  id: 109
-  Category_1000id: 112
+Category_35:
+  id: 59
+  category_id: 62
   online: false
   name: Sarongit
   description: ''
+  summary: ''
   position: 100
   link: muut_vaatteet
   created_at: 2014-01-28 21:16:03.000000000 Z
   updated_at: 2014-08-23 20:06:01.000000000 Z
-  summary: ''
-Category_100036:
-  id: 110
-  Category_1000id: 103
+Category_36:
+  id: 60
+  category_id: 53
   online: false
   name: Kylpyesineet
   description: ''
+  summary: ''
   position: 1
   link: kylpyesineet
   created_at: 2014-01-28 21:16:03.000000000 Z
   updated_at: 2014-02-09 19:52:40.000000000 Z
-  summary: ''
-Category_100037:
-  id: 111
-  Category_1000id: 103
+Category_37:
+  id: 61
+  category_id: 53
   online: false
   name: Hopeaesineet
   description: ''
+  summary: ''
   position: 1
   link: hopeaesineet
   created_at: 2014-01-28 21:16:08.000000000 Z
   updated_at: 2014-02-09 19:52:48.000000000 Z
-  summary: ''
-Category_100038:
-  id: 112
+Category_38:
+  id: 62
   online: false
   name: Kankaat
   description: ''
+  summary: ''
   position: 100
   link: kankaat
   created_at: 2014-01-28 21:16:08.000000000 Z
   updated_at: 2014-02-09 20:23:10.000000000 Z
-  summary: ''
-Category_100039:
-  id: 113
-  Category_1000id: 112
+Category_39:
+  id: 63
+  category_id: 62
   online: false
   name: Sängynpeiteet
   description: ''
+  summary: ''
   position: 1
   link: sängynpeiteet
   created_at: 2014-01-28 21:16:09.000000000 Z
   updated_at: 2014-02-09 19:44:27.000000000 Z
-  summary: ''
-Category_100040:
-  id: 114
-  Category_1000id: 125
+Category_40:
+  id: 64
+  category_id: 75
   online: false
   name: Neuleet
   description: ''
+  summary: ''
   position: 1
   link: neuleet
   created_at: 2014-01-28 21:16:09.000000000 Z
   updated_at: 2014-08-23 19:58:48.000000000 Z
-  summary: ''
-Category_100041:
-  id: 115
-  Category_1000id: 123
+Category_41:
+  id: 65
+  category_id: 73
   online: true
   name: Huonetuoksut
   description: "**Huolella valikoitu lajitelma huonetuoksuja.**Tyylikästä raikkautta
     kotiin tai työpaikalle.\r\n\r\n\r\n"
+  summary: ''
   position: 1
   link: huonetuoksut
   main_picture_file_name: menu-tuoksu-huone.jpg
@@ -572,90 +568,90 @@ Category_100041:
   extra_picture_updated_at: 2014-12-15 20:32:47.000000000 Z
   created_at: 2014-01-28 21:16:09.000000000 Z
   updated_at: 2014-12-15 20:32:48.000000000 Z
-  summary: ''
-Category_100042:
-  id: 116
-  Category_1000id: 77
+Category_42:
+  id: 66
+  category_id: 27
   online: false
   name: Kynttilät
   description: ''
+  summary: ''
   position: 1
   link: kynttilät
   created_at: 2014-01-28 21:16:14.000000000 Z
   updated_at: 2014-02-09 19:54:48.000000000 Z
-  summary: ''
-Category_100043:
-  id: 117
-  Category_1000id: 103
+Category_43:
+  id: 67
+  category_id: 53
   online: false
   name: Puuesineet
   description: ''
+  summary: ''
   position: 1
   link: puuesineet
   created_at: 2014-01-28 21:16:15.000000000 Z
   updated_at: 2014-02-09 19:52:57.000000000 Z
-  summary: ''
-Category_100044:
-  id: 118
-  Category_1000id: 125
+Category_44:
+  id: 68
+  category_id: 75
   online: false
   name: Hameet
   description: ''
+  summary: ''
   position: 1
   link: hameet
   created_at: 2014-01-28 21:16:19.000000000 Z
   updated_at: 2014-08-23 19:59:10.000000000 Z
-  summary: ''
-Category_100045:
-  id: 119
-  Category_1000id: 125
+Category_45:
+  id: 69
+  category_id: 75
   online: false
   name: Kengät
   description: ''
+  summary: ''
   position: 1
   link: kengät
   created_at: 2014-01-28 21:16:19.000000000 Z
   updated_at: 2014-08-23 19:59:30.000000000 Z
-  summary: ''
-Category_100046:
-  id: 120
-  Category_1000id: 125
+Category_46:
+  id: 70
+  category_id: 75
   online: false
   name: Housut
   description: ''
+  summary: ''
   position: 1
   link: housut
   created_at: 2014-01-28 21:16:20.000000000 Z
   updated_at: 2014-08-23 19:59:48.000000000 Z
-  summary: ''
-Category_100047:
-  id: 121
-  Category_1000id: 112
+Category_47:
+  id: 71
+  category_id: 62
   online: false
   name: Tyynyt
   description: ''
+  summary: ''
   position: 1
   link: tyynyt
   created_at: 2014-01-28 21:16:40.000000000 Z
   updated_at: 2014-02-09 19:44:32.000000000 Z
-  summary: ''
-Category_100048:
-  id: 122
-  Category_1000id: 112
+Category_48:
+  id: 72
+  category_id: 62
   online: false
   name: Verhot
   description: ''
+  summary: ''
   position: 1
   link: verhot
   created_at: 2014-01-28 21:16:49.000000000 Z
   updated_at: 2014-02-09 19:44:39.000000000 Z
-  summary: ''
-Category_100049:
-  id: 123
+Category_49:
+  id: 73
   online: true
   name: Tuoksut
   description: Luomu huonesprayt ja -tuoksutikut sekä ihastuttavat aromasprayt ja
     roll onit. Kaikissa upeat, luonnolliset tuoksut!
+  summary: Valikoima mm. huippulaadukkaita huonetuoksuja.
   position: 3
   link: tuoksut
   main_picture_file_name: menu-tuoksu.jpg
@@ -668,15 +664,15 @@ Category_100049:
   extra_picture_updated_at: 2014-12-15 20:31:48.000000000 Z
   created_at: 2014-02-09 12:33:28.000000000 Z
   updated_at: 2014-12-15 20:31:49.000000000 Z
-  summary: Valikoima mm. huippulaadukkaita huonetuoksuja.
-Category_100050:
-  id: 124
-  Category_1000id: 63
+Category_50:
+  id: 74
+  category_id: 13
   online: true
   name: Tee
   description: "Huolella valittu lajitelma teetä:\r\nhuippulaatuiset maustamattomat
     teelaadut parhailta viljelmiltä ja inspiroivia teesekoituksia. Myös valikoima
     luomulaatuisia ja terveysvaikutteisia teetä. "
+  summary: "**Ihanat teet!**\r\n"
   position: 1
   link: tee
   main_picture_file_name: menu-tee.jpg
@@ -689,14 +685,14 @@ Category_100050:
   extra_picture_updated_at: 2014-12-06 06:16:39.000000000 Z
   created_at: 2014-02-09 19:25:36.000000000 Z
   updated_at: 2014-12-06 06:16:39.000000000 Z
-  summary: "**Ihanat teet!**\r\n"
-Category_100051:
-  id: 125
-  online: true
+Category_51:
+  id: 75
+  online: false
   name: Vaatteet ja huivit
   description: Luomuvillaa kylmiin keleihin, kimallusta juhlakauteen ja saksalaisen
     suunnittelijan huiveja joka säähän. Väriä ja virtaa arkeen! Tule ja löydä itsellesi
     juuri sinulle sopiva asuste.
+  summary: "**Tyylikkäät vaatteet ja huivit**"
   position: 4
   link: vaatteet_ja_huivit
   main_picture_file_name: menu-vaatteet.jpg
@@ -708,24 +704,23 @@ Category_100051:
   extra_picture_file_size: 1100
   extra_picture_updated_at: 2014-12-06 06:19:24.000000000 Z
   created_at: 2014-02-09 19:41:32.000000000 Z
-  updated_at: 2014-12-06 06:19:24.000000000 Z
-  summary: "**Tyylikkäät vaatteet ja huivit**"
-Category_100052:
-  id: 126
-  Category_1000id: 51
+  updated_at: 2017-01-02 19:20:13.000000000 Z
+Category_52:
+  id: 76
+  category_id: 1
   online: false
   name: Eteeriset öljyt
   description: 'Erittäin laaja valikoima Farfallan huippulaatuisia eteerisiä öljyjä,
     joista suuri osa on luomulaatuisia. Aromaterapia ja eteeriset öljyt ovat Farfallan
     erikoisalaa: Farfallan asiantuntemus nimenomaan tuoksujen alalla on maailman huipputasoa. '
+  summary: ''
   position: 1
   link: eteeriset_öljyt
   created_at: 2014-08-19 14:59:41.000000000 Z
   updated_at: 2014-10-25 16:03:45.000000000 Z
-  summary: ''
-Category_100053:
-  id: 127
-  Category_1000id: 51
+Category_53:
+  id: 77
+  category_id: 1
   online: false
   name: Kylpytuotteet
   description: "**Sveitsiläinen Farfalla valmistaa upeita luomulaatuisia spa- ja kylpytuotteita,
@@ -733,27 +728,28 @@ Category_100053:
     Meiltä saat nyt Farfallan huippulaatuiset luomukylpyvaahdot ja -suolat, joilla
     voit hoitaa ja hemmotella itseäsi kotona. Farfallan kylpytuotteet ovat myös ihastuttavia
     ja tyylikkäitä lahjoja!"
+  summary: ''
   position: 1
   link: kylpytuotteet
   created_at: 2014-08-19 15:16:05.000000000 Z
   updated_at: 2014-10-25 16:12:02.000000000 Z
-  summary: ''
-Category_100054:
-  id: 128
-  Category_1000id: 77
+Category_54:
+  id: 78
+  category_id: 27
   online: false
   name: Musiikki
   description: ''
+  summary: ''
   position: 1
   link: musiikki
   created_at: 2014-08-22 09:30:30.000000000 Z
   updated_at: 2014-08-22 09:30:30.000000000 Z
-  summary: ''
-Category_100055:
-  id: 129
+Category_55:
+  id: 79
   online: true
   name: Uutuudet ja löydöt
   description: ''
+  summary: "**Uutuuksia, löytöjä, erikoiseriä!**"
   position: 6
   link: uutuudet_ja_loydot
   main_picture_file_name: menu-uutuus.jpg
@@ -766,10 +762,9 @@ Category_100055:
   extra_picture_updated_at: 2014-12-15 20:36:01.000000000 Z
   created_at: 2014-11-12 15:29:21.000000000 Z
   updated_at: 2015-11-10 20:56:08.000000000 Z
-  summary: "**Uutuuksia, löytöjä, erikoiseriä!**"
-Category_100056:
-  id: 130
-  Category_1000id: 129
+Category_56:
+  id: 80
+  category_id: 79
   online: false
   name: Kukkaisvedet
   description: "Farfallan puhtaat, huippulaatuiset kukkaisvedet on valmistettu luomuviljellyistä
@@ -777,8 +772,8 @@ Category_100056:
     virkistäytymiseen, huonetuoksuiksi jne. \r\n\r\nKaikki voivat löytää juuri omalle
     iholleen sopivan, ihastuttavan kasvoveden: valikoimassa on mm. anti age -vaikuttavia,
     raikastavia, kosteuttavia, epäpuhtauksia tasapainottavia ja kirkastavia kukkaisvesiä."
+  summary: ''
   position: 1
   link: kukkaisvedet
   created_at: 2015-11-29 09:40:51.000000000 Z
   updated_at: 2015-11-29 09:45:20.000000000 Z
-  summary: ''

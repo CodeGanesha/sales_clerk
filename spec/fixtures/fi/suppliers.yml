@@ -313,3 +313,13 @@ Supplier_49:
     phone: ''
   created_at: 2015-12-16 15:36:58.000000000 Z
   updated_at: 2015-12-16 15:36:58.000000000 Z
+Supplier_50:
+  id: 62
+  supplier_name: Putinki
+  address: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+    name: ''
+    street: ''
+    city: ''
+    phone: ''
+  created_at: 2016-11-12 10:52:48.000000000 Z
+  updated_at: 2016-11-12 10:52:48.000000000 Z
