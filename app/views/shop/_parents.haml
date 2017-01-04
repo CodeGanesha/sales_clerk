@@ -4,17 +4,6 @@
       = image_tag group.extra_picture.url(:original)
 .col-md-3.col-sm-3
   .row
-    .group-wrapper.side-tex
-      %h5
-        %a{href: "/"}
-          =image_tag  "kauppa/aurinko.png"
-          = t(:to_hompage)
-
-    %br
-    %b
-      FARFALLA - Huippusarja maailmalta, nyt myös Suomessa!
-      %br
-      Sveitsiläistä laadukasta luomukosmetiikkaa: 100% luonnollisista ainesosista, joista suuri osa jopa yli 95% luomua (NaTrue***)
     - parents(group).each do | group|
       .group-wrapper.side
         = link_to shop_group_path(:link => group.link) do
@@ -41,3 +30,16 @@
           Edulliset toimituskulut,
           %br
           alkaen vain 3 €!
+          %br
+          Yli 49€ ilmainen!
+    .group-wrapper.side
+      = link_to root_path do
+        = image_tag "kauppa/menu-luomu.jpg"
+        %h5= t(:to_hompage)
+
+    .intro-text
+      %p.description
+        %b
+          FARFALLA - Huippusarja maailmalta, nyt myös Suomessa!
+        %br
+          Sveitsiläistä laadukasta luomukosmetiikkaa: 100% luonnollisista ainesosista, joista suuri osa jopa yli 95% luomua (NaTrue***)
