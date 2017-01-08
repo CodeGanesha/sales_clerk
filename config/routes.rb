@@ -17,6 +17,9 @@ Rails.application.routes.draw do
   get "history" => "shop#history" , :as => :shop_history
 
   get 'welcome' => 'shop#welcome', :as => :shop_welcome
+  get 'page/mailto' ,to: redirect("/")
+  get 'page/liikkeemme' ,to: redirect("/")
+
   get 'page/:id' => 'shop#page', :as => :shop_page
 
 
