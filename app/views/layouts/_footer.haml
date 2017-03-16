@@ -2,7 +2,11 @@
 
   %hr
   .col-sm-4.footer_left
-    .highlight=link_to t(:our_shop) , "/page/liikkeemme"
+    .highlight= t(:our_shop)
+    %span{:style => "font-size: 0.8em; line-height: 0em;"}
+      Farfalla Shop & Showroom on avoinna sopimuksen mukaan Helsingin Töölön Tullinpuomissa. Olet tervetullut Farfalla -ostoksille! Soita meille numeroon 040-1461222, sovitaan aika jolloin olemme paikalla!
+      %br/    
+      %br/    
     .highlight=link_to t(:terms).capitalize , "/page/toimitusehdot"
 
     %a{href: "https://www.facebook.com/Auringosta.Itaan.Kuusta.Lanteen", :target => "blank"}
@@ -10,6 +14,9 @@
         =image_tag "kauppa/facebook.gif"
         \ 
         Like us on Facebook!
+        \ 
+        %a{href: "https://www.instagram.com/farfallacosmetics/", :target => "blank"}
+          =image_tag "kauppa/insta.png"
   .col-sm-4.footer_center
     %h4= t(:designed_by)
     %b Ruby Design  

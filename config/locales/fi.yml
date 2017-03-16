@@ -20,7 +20,7 @@ fi:
   order_more_for_free_shipping: "%{more} €  jäljellä ilmaiseen toimitukseen"
   order_thanks: Kiitos tilauksestasi!
   order_total: Tilaus yhteensä
-  our_shop: Liikkeemme
+  our_shop: Showroom
   payment_description_text: "Voit maksaa ostoksesi joko luottokortilla (myös debit-pankkikortilla),
                           tai ennakkomaksuna eli tilisiirtona. Maksutapa valitaan, kun tilaus on
                           tehty.
