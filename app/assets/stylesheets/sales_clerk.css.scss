@@ -29,8 +29,8 @@ ul.cat {
 .navbar-nav li a {
 	font-size: 14px;
 	font-weight: 800;
-	color: #ffffff !important;
-	text-shadow: black 3px 2px 5px;
+	color: #000000 !important;
+	text-shadow: #989696 3px 2px 5px;
 	text-align: right;
 }
 
@@ -42,7 +42,7 @@ ul.cat {
 @import "bootstrap";
 
 body{
-	margin-top: 200px;
+	margin-top: 220px;
 	.container-fluid {
 	  max-width: 95%;
 	}
@@ -364,7 +364,7 @@ h1.product-title {
 .taustalogo {
 	background-color: #1CA7FF;
   background: image-url("kauppa/kansi3.jpg") no-repeat scroll;
-  height: 200px;
+  height: 220px;
 	z-index: -9999;
 }
 
