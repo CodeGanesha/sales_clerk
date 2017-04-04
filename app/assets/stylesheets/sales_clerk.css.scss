@@ -42,7 +42,6 @@ ul.cat {
 @import "bootstrap";
 
 body{
-	margin-top: 220px;
 	.container-fluid {
 	  max-width: 95%;
 	}
@@ -443,7 +442,7 @@ color: black !important;
 }
 
 a .highlight{
-  color: $highlight !important; 
+  color: $highlight !important;
 }
 
 .welcome {
