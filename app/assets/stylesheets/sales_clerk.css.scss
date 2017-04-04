@@ -442,6 +442,10 @@ color: black !important;
   background-color: $highlight-9;
 }
 
+a .highlight{
+  color: $highlight !important; 
+}
+
 .welcome {
   max-width: 92%;
   margin: 20px auto 0; }
