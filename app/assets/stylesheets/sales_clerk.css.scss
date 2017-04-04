@@ -29,8 +29,8 @@ ul.cat {
 .navbar-nav li a {
 	font-size: 14px;
 	font-weight: 800;
-	color: #ffffff !important;
-	text-shadow: black 3px 2px 5px;
+	color: #000000 !important;
+	text-shadow: #989696 3px 2px 5px;
 	text-align: right;
 }
 
@@ -42,7 +42,6 @@ ul.cat {
 @import "bootstrap";
 
 body{
-	margin-top: 107px;
 	.container-fluid {
 	  max-width: 95%;
 	}
@@ -185,7 +184,7 @@ text-shadow: rgb(255, 255, 255) 0px 0px 10px;
 }
 
 .intro-text {
-  width: 85%; }
+  width: 230px; }
 
 .intro-text p{
   font-size: 15px;
@@ -364,7 +363,8 @@ h1.product-title {
 .taustalogo {
 	background-color: #1CA7FF;
   background: image-url("kauppa/kansi.jpg") no-repeat scroll;
-  height: 107px;
+  height: 220px;
+	z-index: -9999;
 }
 
 .dropped {
@@ -439,6 +439,10 @@ color: black !important;
 
 .bg-high9 {
   background-color: $highlight-9;
+}
+
+a .highlight{
+  color: $highlight !important;
 }
 
 .welcome {
