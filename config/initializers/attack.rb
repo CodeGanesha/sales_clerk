@@ -34,7 +34,7 @@ end
 Rack::Attack.whitelist('allow from known or dev') do |req|
   # Requests are allowed if the return value is truthy
   if Rails.env.production?
-    [ "85.76.112.161" , "85.76.99.50"].include? req.ip
+    [ "85.76.163.53"].include? req.ip
   else
     true
   end
