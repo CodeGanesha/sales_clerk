@@ -4,6 +4,7 @@ sudo: required
 script:
   - RAILS_ENV=test bundle exec rake db:migrate
   - CODECLIMATE_REPO_TOKEN=0e53f23e1ed03ab327e184b7eaa07d9359bc6ce9bd6da8b5ea6bbe9b02c89f5f bundle exec rspec
+  - bundle exec codeclimate-test-reporter
 rvm:
   - 2.2.7
   - 2.3.4

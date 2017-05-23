@@ -24,7 +24,7 @@ gem 'rack-attack'
 # error collection
 gem 'rollbar'
 
-gem "stripe" , "1.58.0"
+gem "stripe" 
 
 group :development do
   gem 'better_errors'
