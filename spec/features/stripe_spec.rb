@@ -19,7 +19,7 @@ describe "pay with stripe", :js => true do
   #     expect(page).to have_content("declined")
   #   end
   # end
-  it "works" do
+  xit "works" do
     click_button I18n.t("stripe_clerk.pay_with_card")
     Capybara.within_frame 'stripe_checkout_app' do
       fill_in "card_number", :with => '4242424242424242'
