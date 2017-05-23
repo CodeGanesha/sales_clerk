@@ -1,5 +1,5 @@
 # Block requests for php or cgi, jps and what else the people throw at us
-Rack::Attack.blacklist('block admin probes') do |req|
+Rack::Attack.blocklist('block admin probes') do |req|
   # Request are blocked if the return value is truthy
   reject = false
   [".php" , ".jsp" , ".cgi", ".asp", ".cfm," "proxy.txt", "soapCaller", "Win32" , "HNAP1" , "w00tw00t",
@@ -14,7 +14,7 @@ Rack::Attack.blacklist('block admin probes') do |req|
 end
 
 # Block requests from people clearly out to break servers
-Rack::Attack.blacklist('block admin ips') do |req|
+Rack::Attack.blocklist('block admin ips') do |req|
   [ "79.143.82.69" , "85.76.99.50" ].include? req.ip
 end
 
@@ -31,7 +31,7 @@ end
 
 # Always allow requests from shop
 # (blacklist & throttles are skipped)
-Rack::Attack.whitelist('allow from known or dev') do |req|
+Rack::Attack.safelist('allow from known or dev') do |req|
   # Requests are allowed if the return value is truthy
   if Rails.env.production?
     [ "85.76.163.53"].include? req.ip

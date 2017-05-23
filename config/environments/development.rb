@@ -26,7 +26,7 @@ SalesClerk::Application.configure do
   # This option may cause significant delays in view rendering with a large
   # number of complex assets.
   config.assets.debug = true
-  config.serve_static_files  = true
+  config.public_file_server.enabled = true
   config.assets.raise_runtime_errors = false
   # Raises error for missing translations
   config.action_view.raise_on_missing_translations = true

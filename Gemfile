@@ -24,13 +24,12 @@ gem 'rack-attack'
 # error collection
 gem 'rollbar'
 
-gem "stripe"
+gem "stripe" , "1.58.0"
 
 group :development do
-  gem 'better_errors' , :platforms=>[:mri_20, :mri_21, :rbx]
-  gem 'binding_of_caller', :platforms=>[:mri_19, :mri_20, :mri_21,:rbx]
+  gem 'better_errors'
+  gem 'binding_of_caller'
   gem "i18n-tasks"
-  gem 'quiet_assets'
   gem "puma"
   gem "rb-readline"
 end
