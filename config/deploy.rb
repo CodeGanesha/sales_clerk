@@ -7,7 +7,7 @@ set :repo_url, 'https://github.com/rubyclerks/sales_clerk'
 # Default deploy_to directory is /var/www/my_app_name
 set :deploy_to, '/var/www/vhosts/auringostaitaan.fi'
 
-append :linked_dirs, %w(public/images log tmp/pids tmp/cache)
+append :linked_dirs, "public/images" ,"log" ,"tmp/pids", "tmp/cache"
 
 set :passenger_restart_command, 'passenger-config restart-app'
 
