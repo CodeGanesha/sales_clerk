@@ -24,7 +24,7 @@ gem 'rack-attack'
 # error collection
 gem 'rollbar'
 
-gem "stripe" 
+gem "stripe"
 
 group :development do
   gem 'better_errors'
@@ -32,6 +32,11 @@ group :development do
   gem "i18n-tasks"
   gem "puma"
   gem "rb-readline"
+  gem 'capistrano', "3.8.2"
+  gem 'capistrano-bundler'
+  gem 'capistrano-rails'
+  gem 'capistrano-rails-console'
+  gem 'capistrano-passenger'
 end
 
 group  :production do
