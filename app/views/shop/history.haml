@@ -13,7 +13,7 @@
     .col-md-6
       %b
         =t(:choosen_shipment) +" :"
-        = shipping_method(@last.shipment_type).&name
+        = shipping_method(@last.shipment_type).name
       %br
         = [ @last.name ,   @last.street,   @last.city ,  @last.phone  ].join(", ")
     .col-md-6
