@@ -37,7 +37,7 @@ GIT
 
 GIT
   remote: https://github.com/rubyclerks/post_clerk
-  revision: 52b2cda4f1fb4c56ccb078ac3648b3f53262fd92
+  revision: ac3aaa37df7723763d34a303be42472830796c9f
   specs:
     post_clerk (0.7)
       office_clerk (~> 1.1)
