@@ -14,7 +14,7 @@ GIT
 
 GIT
   remote: https://github.com/rubyclerks/office_clerk
-  revision: 2fc83f0a961560a8f8e0ebc78fa1a728f689f5d6
+  revision: 1cde58060029564d9af85f31d296a7209cb44ca8
   specs:
     office_clerk (1.1)
       bcrypt-ruby (~> 3.1)
@@ -99,7 +99,7 @@ GEM
       sshkit (>= 1.6.1, != 1.7.0)
     arel (7.1.4)
     ast (2.3.0)
-    autoprefixer-rails (7.1.1)
+    autoprefixer-rails (7.1.1.2)
       execjs
     barby (0.6.5)
     bcrypt (3.1.11)
@@ -153,9 +153,9 @@ GEM
     codeclimate-test-reporter (1.0.8)
       simplecov (<= 0.13)
     coderay (1.1.1)
-    coffee-rails (4.2.1)
+    coffee-rails (4.2.2)
       coffee-script (>= 2.2.0)
-      railties (>= 4.0.0, < 5.2.x)
+      railties (>= 4.0.0)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
@@ -211,7 +211,7 @@ GEM
       tilt
     highline (1.7.8)
     htmlentities (4.3.4)
-    i18n (0.8.1)
+    i18n (0.8.4)
     i18n-spec (0.6.0)
       iso
     i18n-tasks (0.9.15)
@@ -244,14 +244,14 @@ GEM
     loofah (2.0.3)
       nokogiri (>= 1.5.9)
     lumberjack (1.0.12)
-    mail (2.6.5)
+    mail (2.6.6)
       mime-types (>= 1.16, < 4)
     method_source (0.8.2)
     mime-types (3.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2016.0521)
     mimemagic (0.3.0)
-    mini_portile2 (2.1.0)
+    mini_portile2 (2.2.0)
     minitest (5.10.2)
     multi_json (1.12.1)
     multipart-post (2.0.0)
@@ -261,9 +261,9 @@ GEM
       net-ssh (>= 2.6.5)
     net-ssh (4.1.0)
     newrelic_rpm (4.1.0.333)
-    nio4r (2.0.0)
-    nokogiri (1.7.2)
-      mini_portile2 (~> 2.1.0)
+    nio4r (2.1.0)
+    nokogiri (1.8.0)
+      mini_portile2 (~> 2.2.0)
     notiffany (0.1.1)
       nenv (~> 0.1)
       shellany (~> 0.0)
@@ -329,7 +329,7 @@ GEM
     rainbow (2.2.2)
       rake
     rake (12.0.0)
-    ransack (1.8.2)
+    ransack (1.8.3)
       actionpack (>= 3.0)
       activerecord (>= 3.0)
       activesupport (>= 3.0)
@@ -416,7 +416,7 @@ GEM
     websocket-driver (0.6.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.2)
-    will_paginate (3.1.5)
+    will_paginate (3.1.6)
     will_paginate-bootstrap (1.0.1)
       will_paginate (>= 3.0.3)
     xpath (2.0.0)
