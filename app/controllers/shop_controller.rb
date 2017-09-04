@@ -29,10 +29,7 @@ class ShopController < ApplicationController
       @order = Order.new :ordered_on => Date.today
       @order.basket = basket
     end
-    if(request.get?)
-      @order.email = current_clerk.email if current_clerk
-      @order.shipment_type = "post" # price is 0 automatically
-    else
+    if(request.post?)
       order_ps = params.require(:order).permit( :email,:name , :street , :city , :phone , :shipment_type )
       @order.assign_attributes(order_ps)
       if (!params[:validation].blank?) and @order.save
@@ -40,6 +37,9 @@ class ShopController < ApplicationController
       else
         flash.now.notice = I18n.t(:must_accept) if params[:validation].blank?
       end
+    else
+      @order.email = current_clerk.email if current_clerk
+      @order.shipment_type = "post" # price is 0 automatically
     end
   end
 

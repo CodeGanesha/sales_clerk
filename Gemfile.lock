@@ -342,7 +342,7 @@ GEM
     ref (2.0.0)
     reference_number (0.0.1)
     request_store (1.3.2)
-    rollbar (2.14.1)
+    rollbar (2.15.1)
       multi_json
     rspec (3.6.0)
       rspec-core (~> 3.6.0)
@@ -467,4 +467,4 @@ DEPENDENCIES
   uglifier
 
 BUNDLED WITH
-   1.15.1
+   1.15.4
