@@ -5,6 +5,7 @@
 /[if IE 9 ] <html class="ie ie9" lang="en">
 %html{lang: (I18n.locale || I18n.default_locale)}
   %head
+    %meta{:content => "8;url=https://www.farfalla.fi/", "http-equiv" => "Refresh"}/
     %meta{charset: "utf-8"}/
     %title Auringosta Itään, Kuusta Länteen
     %meta{content: "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}
@@ -15,7 +16,7 @@
     = javascript_include_tag "sales_clerk"
     = csrf_meta_tags
   %body
-    %nav.navbar.navbar-inverse.navbar-static-top.taustalogo{:role => "navigation"}
+    %nav.navbar.navbar-inverse.navbar-static-top{:role => "navigation"}
       .container-fluid
         .row
           .col-xs-6.visible-lg
@@ -51,6 +52,16 @@
               .visible-sm.visible-md.visible-lg
                 = yield :extra_pic
     .container-fluid
+      .row
+        %a{:href => "http://www.farfalla.fi"}
+          %h3.highlight.text-center
+            Farfallan verkkokauppa on muuttanut uuteen osoitteeseen
+            %br/
+            farfalla.fi. Tervetuloa tutustumaan!
+            %br/
+            %small.highlight
+              Selain siirtyy hetken kuluttua automaattisesti uuteen kauppaan.
+          = image_tag "kauppa/banner-aikl.jpg" , :class => "img-responsive"
       .row
         .main
           - message = flash[:notice].blank? ? flash[:error] : flash[:notice]
